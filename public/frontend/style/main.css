@@ -1,0 +1,1165 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;600;700&display=swap");
+*,
+::before,
+::after,
+a:hover {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* umumiy stillar */
+
+:root {
+  --font-color: #2c3e50;
+  --main-color: #16a085;
+  --link-color: #2980b9;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--font-color) !important;
+  background-color: #efecf0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+a {
+  color: var(--link-color) !important;
+}
+
+.title {
+  font-size: 35px;
+  margin: 30px 0;
+  text-align: center;
+  display: block;
+  margin-bottom: 30px;
+}
+.title span {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.title span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  height: 2px;
+  background-color: var(--font-color);
+  left: 10%;
+}
+
+.container-fluit {
+  max-width: 1920px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/* ------------- navbar qismi uchun sillar */
+
+.container-fluit .navbar {
+  height: 110px;
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%);
+  position: relative;
+}
+
+.navbar img {
+  width: 90px;
+  margin: 15px 30px;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+.navbar-menu {
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ------------- yuqoridagi yashil head uchun stillar */
+
+.head {
+  background-color: var(--main-color);
+  width: 85% !important;
+  padding-right: 30px;
+  margin-left: auto;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  z-index: 155;
+}
+
+.head::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: -37px;
+  border-top: 32px solid var(--main-color);
+  border-left: 38px solid transparent;
+}
+
+.head a {
+  color: #fff !important;
+  display: inline-block;
+  line-height: 22px;
+  margin: 5px 15px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.head .lang {
+  margin-right: 40px;
+  position: relative;
+}
+
+.head .lang a {
+  display: block;
+  margin: 5px 0;
+  border: none;
+  font-family: "Raleway", sans-serif;
+
+  color: #fff;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.head .lang a::after {
+  width: 0;
+}
+
+.head .lang-active::after {
+  content: "";
+  width: 0;
+  position: absolute;
+  margin-left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 0;
+  background-color: transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 6px solid #ffffff;
+}
+
+.drop-down-lang {
+  overflow: hidden;
+  height: 0;
+  position: absolute;
+  width: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  z-index: 120;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.drop-down-lang a {
+  color: var(--font-color) !important;
+}
+
+.drop-down-lang a:hover {
+  background-color: hsla(168, 76%, 36%, 0.3);
+}
+
+.head a::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 1px;
+  background-color: #fff;
+  position: absolute;
+  margin-left: 15px;
+}
+
+.head a:last-child::after {
+  content: "";
+  display: none;
+}
+
+.navbar-nav {
+  height: calc(100% - 32px);
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 15px;
+  position: relative;
+  z-index: 15;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--font-color) !important;
+  transition: all 0.3s ease;
+  padding: 0 !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .active a {
+  color: var(--link-color) !important;
+}
+
+.smal-menu {
+  width: 200px;
+}
+
+.drop-down-link li {
+  position: relative;
+}
+
+.drop-down-link li::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  transition: all 0.3s ease;
+  height: 1px;
+  background-color: var(--main-color);
+  left: 0;
+  bottom: 0;
+}
+
+.smal-menu li:hover::after,
+.big-menu ul > li:hover::after {
+  width: 100%;
+}
+
+.talaba {
+  left: -480px;
+}
+
+.drop-down-link a {
+  display: inline-block;
+  margin: 5px 0;
+  color: var(--font-color) !important;
+  transition: all 0.3s ease;
+}
+
+.drop-down-link a:hover {
+  color: var(--link-color) !important;
+}
+
+/* katta menu uchun stillar */
+.big-menu {
+  display: flex;
+  left: -450px;
+}
+
+.big-men h4 {
+  font-size: 1.2em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.big-menu li {
+  margin-right: 15px;
+  width: 250px;
+}
+
+.oxirgi_menu {
+  left: -800px;
+}
+
+.navbarToggle {
+  display: none;
+  position: absolute;
+  right: 30px;
+  outline: none;
+}
+
+.navbar-nav .nav-drop {
+  display: none;
+}
+
+/* ------------------------ main qismi uchun stillar */
+
+/* mainni ichidagi slider uchun stillar */
+
+.slider {
+  overflow: hidden;
+  position: relative;
+}
+
+.slider img {
+  width: 100%;
+}
+
+/* slick js uchun stillar */
+
+.slider .slick-arrow {
+  position: absolute;
+  z-index: 3;
+  font-size: 0;
+  top: 0;
+}
+
+.slider * {
+  outline: none;
+}
+
+.slider .slick-arrow {
+  width: 6%;
+  height: 100%;
+  border: none;
+  background-size: 20px;
+  background-color: rgb(0, 0, 0, 0.15);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background-image: url("../img/icon/Path\ 1.svg");
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background-image: url("../img/icon/Path\ 2.svg");
+}
+
+.slider .slick-dots {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  font-size: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slider .slick-dots > li {
+  margin-left: 12px;
+}
+.slider .slick-dots button {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/* main ning ichidagi quick meni uchun stillar */
+
+.quick-menu {
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.quick-menu a {
+  width: 160px;
+  height: 103px;
+  font-family: "Poppins";
+  background-image: url("../img/bg-quick_menu.png");
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 5px;
+}
+
+.quick-menu a::after {
+  background-color: rgba(22, 160, 133, 0.7);
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.quick-menu .quick-item {
+  padding: 0 10px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 15;
+  border: 1px solid #fff;
+  padding: 15px 0;
+  outline: 1px solid #fff;
+  outline-offset: -5px;
+  transition: 0.3s ease;
+  position: relative;
+  z-index: 5;
+}
+
+.quick-menu .quick-item:hover {
+  outline-offset: -1px;
+}
+
+.quick-menu h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.quick-item > div {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.quick-menu .quick-item:hover > div {
+  background-color: #fff;
+  color: var(--font-color);
+}
+
+/* main qismining ichidagi news va annnoncemet qismi uchun stillar */
+
+.news .card,
+.elon .card {
+  border: none;
+  text-align: center;
+}
+
+.card .img-after {
+  position: relative;
+  overflow: hidden;
+}
+
+.card .img-after::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  z-index: 13;
+  background-color: rgba(22, 160, 133, 0.5);
+  transition: all 0.3s ease;
+}
+
+.card .img-after::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  right: 0%;
+  z-index: 13;
+  background-color: rgba(22, 160, 133, 0.5);
+  transition: all 0.3s ease-out;
+}
+
+.card .img-after img {
+  transition: all 0.5s ease-out;
+}
+
+.card:hover .img-after::after {
+  right: -50%;
+}
+
+.card:hover .img-after::before {
+  left: -50%;
+}
+
+.card:hover .img-after img {
+  transform: scale(1.12);
+}
+
+.news .card-body,
+.elon .card-body {
+  position: relative;
+  bottom: 4px;
+  border-top: none !important;
+}
+
+.news .card-title,
+.elon .card-title {
+  font-weight: bold;
+}
+
+.news .card-data,
+.elon .card-data {
+  font-size: 12px;
+}
+
+.news .card-text,
+.elon .card-text {
+
+  line-height: 22px;
+  height: 88px;
+  overflow: hidden;
+}
+
+.news .card-footer,
+.elon .card-footer {
+  background-color: transparent;
+  display: flex;
+}
+
+.items > div {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+/* main qismining ichidagi Interaktiv qizmatlar uchun stillar */
+
+.interactive {
+  background-image: url("../img/bgtatu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 30%;
+  height: 500px;
+  color: #fff;
+  position: relative;
+}
+
+.interactive .container {
+  z-index: 5;
+}
+
+.interactive::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+
+.interactive .service {
+  background-color: #16a085;
+  position: relative;
+  z-index: 5;
+  top: 30px;
+}
+
+.interactive .row a {
+  text-align: center;
+  z-index: 5;
+  display: block;
+  padding: 50px 0;
+  color: #ffffff !important;
+  border-bottom: 1px solid #ffffff;
+  transition: all 0.5s ease;
+}
+
+.interactive .row .row:last-child a {
+  border-bottom: none;
+}
+
+.interactive .row a:hover {
+  background-color: #107e68;
+}
+
+.interactive .row a:first-child {
+  border-right: 1px solid #ffffff;
+}
+
+/* murojatlar stasitkasi uchun stillar */
+
+.statistics {
+  position: relative;
+  top: 150px;
+  margin-bottom: 110px;
+}
+
+.statistics .bg {
+  background-image: url("../img/IMG_1930-min.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  position: relative;
+  padding: 30px 0;
+  /* height: 250px; */
+}
+
+.statistics .bg::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(1, 49, 40, 0.788);
+}
+
+.statistics .justify-content-around > div {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  z-index: 5;
+  color: #333;
+  text-align: center;
+  height: 150px;
+}
+
+.statistics .justify-content-around i {
+  font-size: 40px;
+  display: block;
+}
+
+.statistics .justify-content-around p {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-top: 8px;
+  line-height: 1.1;
+}
+
+.statistics .justify-content-around span {
+  font-weight: 400;
+  font-size: 2em;
+  color: #000;
+  font-family: "Raleway", sans-serif;
+}
+
+.statistics .number {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.statistics .justify-content-around .row {
+  display: flex;
+  flex-direction: column;
+}
+
+/* usefull uchun stillar */
+
+.items .usefull {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.usefull img {
+  width: 70%;
+}
+
+.items .usefull a {
+  display: inline-block;
+  padding: 0;
+}
+
+/* main qismining eng pastidagi hamkorlar uchun stillar */
+.hamkorlar {
+  text-align: center;
+}
+
+.hamkorlar img {
+  width: 70%;
+}
+
+/* news sahidasi uchun stillar */
+
+.top-head {
+  background-image: url("../img/head-bg.png");
+  padding: 50px 0 65px;
+  position: relative;
+  background-position: center;
+  background-size: auto 100%;
+}
+
+.top-head::before {
+  background-color: rgba(22, 160, 133, 0.5);
+  padding: 50px 0 65px;
+  z-index: 1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-head h2 {
+  color: #fff;
+  position: relative;
+  z-index: 5;
+}
+
+.top-head span::after {
+  background-color: #fff;
+  width: 150%;
+  left: -25%;
+}
+
+.breadcrumb {
+  background-color: transparent;
+  border-bottom: 1px solid #707070;
+  border-radius: 0;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.one-news {
+  display: flex;
+  line-height: 2;
+}
+
+.one-news section h1:nth-of-type(1) {
+  text-align: center;
+}
+
+.one-news > div {
+  width: 100%;
+}
+
+.pagination .page-link {
+  color: var(--font-color);
+  display: inline-block;
+  padding: 7px 15px;
+  margin: 0 !important;
+  transition: all 0.3s ease;
+}
+
+.pagination .active a {
+  color: #fff !important;
+}
+
+#breadcrumb_li {
+  width: 300px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu li {
+  border-top: 1px solid #d9e8f8;
+  line-height: 22px;
+  padding: 7px 0 5px;
+}
+
+.menu h4 {
+  line-height: 22px;
+  font-size: 18px;
+  margin-bottom: 17px;
+}
+
+.one-news img, .one-news table, .one-news video{
+  max-width: 100%;
+}
+
+/* footer qismi uchun stillar */
+
+footer {
+  background-color: #1a1a1a;
+  padding: 24px 0 0px;
+  color: #fff;
+}
+
+footer h3 {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #107e68;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+footer li {
+  font-family: "Raleway", sans-serif !important;
+  padding-bottom: 9px;
+}
+
+footer li a {
+  color: #fff !important;
+  font-family: "Raleway", sans-serif;
+  transition: all 0.3s ease;
+}
+footer li a:hover {
+  color: #107e68 !important;
+}
+
+/* google dan olinga xarita uchun */
+.map {
+  height: 200px;
+  width: 100%;
+}
+
+/* eng pastki qism uchun stillar */
+.bottom {
+  text-align: center;
+  color: #6d8a83;
+  border-top: 1px solid #16a085;
+  margin-top: 20px;
+}
+
+/* to top btn */
+.scrollToTopBtn {
+  background-color: #1a73e8;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 48px;
+  width: 48px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 10;
+  opacity: 0;
+  transform: translateX(100px) scale(0);
+  transition: all 0.6s ease-in;
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+
+/* contact page */ 
+
+.conatct-cont{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.conatct-cont > div:nth-of-type(1){
+    /* padding-top: 80px; */
+    align-self: center;
+}
+
+h2.text-center{
+  margin: 40px 0;
+}
+
+.contact-card{
+  display: flex;
+  align-items: baseline;
+  /* padding-top: 20px; */
+}
+
+.contact-card h3{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.contact-img{
+  padding-right: 20px;
+}
+
+.contact-body p cite, .contact-body p a{
+  margin-left: 30px;
+  font-style: normal;
+  display: inline-block;
+}
+
+.conatct-cont img, .conatct-cont iframe{
+  width: 100%;
+}
+
+form.container{
+  margin-bottom: 100px;
+}
+
+form.container input, form.container textarea{
+  width: 100%;
+  height: 40px;
+  display: block;
+  border: 1px solid #efecf0;
+  outline: none;
+  padding: 0 10px;
+  margin-top: 30px;
+}
+
+form.container textarea{
+  padding: 10px;
+  height: 150px;
+}
+
+form.container sup{
+  color: red;
+  font-size: 8px;
+  /* vertical-align: top; */
+}
+
+form.container textarea + label{
+  top: 41px;
+}
+
+form.container label{
+    position: absolute;
+    transition:  0.3s ease-in;
+    display: block;
+    bottom: 0;
+    left: 25px;
+    font-family: inherit;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+form.container input[type="submit"]{
+  background-color: #16a085;
+  color: #efecf0;
+  font-weight: 600;
+}
+
+
+/* ekran 992 px dan katta uchun */
+
+@media screen and (max-width: 1200px) {
+  /* katta menularni o'lchamini kichiklashtirish*/
+  .big-menu {
+    left: -330px;
+  }
+  .big-menu li {
+    /* margin-right: 15px; */
+    width: 220px;
+  }
+  .oxirgi_menu {
+    left: -750px;
+  }
+}
+
+/* ---------------------- mobile min 992 px */
+
+@media screen and (min-width: 992px) {
+  /* sub menu elelmentlarni katta menuda ko'rinmaydigan qilish */
+  .drop-down-link {
+    position: absolute;
+    opacity: 0;
+    transition: all 0.4s ease;
+    pointer-events: none;
+    transform: translateY(-15px);
+    background-color: #fff;
+    padding: 15px 15px;
+    z-index: 15;
+  }
+  .navbar-nav .nav-item:hover > .drop-down-link {
+    opacity: 1;
+    pointer-events: inherit;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container-fluit .navbar {
+    height: 60px;
+    bottom: -30px;
+  }
+
+  .navbar img {
+    width: 45px;
+    margin: 9px 20px;
+  }
+
+  /* ------------- yuqoridagi yashil head uchun stillar */
+
+  .head {
+    height: 30px;
+    width: 100% !important;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  /* menuni ochish s */
+
+  .navbarToggle {
+    display: block;
+    font-size: 24px;
+    color: var(--font-color);
+    background-color: transparent;
+    border: none;
+  }
+
+  /* menu uchun stillar */
+
+  .navbar-nav {
+    position: absolute;
+    right: 0;
+    z-index: 15;
+    top: 60px;
+    text-align: left;
+    height: 100vh;
+    display: block;
+    width: 100%;
+    margin: 0;
+    background-color: #fff;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow-y: auto;
+    height: 0;
+    transition: all 0.5s ease-in;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 7px 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar-nav > li:first-child {
+    margin-top: 30px;
+  }
+
+  .navbar-nav .nav-drop {
+    position: absolute;
+    display: block;
+    right: 0;
+    transition: transform 0.5s ease;
+    transform: rotate(0);
+  }
+
+  .nav-link > a {
+    height: 0;
+    font-size: 1.1em;
+  }
+
+  .navbar-nav .nav-item > .drop-down-link {
+    height: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: all 0.7s ease;
+    margin-left: 15px;
+  }
+
+  /* katta menularni o'lchamini kichiklashtirish*/
+
+  .big-menu {
+    flex-direction: column;
+  }
+  .big-menu h4 {
+    padding-top: 15px;
+    font-size: 0.9em;
+  }
+
+  /* main qismi uchun stillar */
+
+  main {
+    margin-top: 30px;
+  }
+
+  .top-head {
+    margin-top: 31px;
+  }
+
+  .breadcrumb {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .breadcrumb ol {
+    padding-bottom: 5px !important;
+  }
+
+  /* mainning ichidagi item uchin stillar */
+
+  .items > div {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .hamkorlar img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .top-head {
+    margin-top: 31px;
+    padding: 30px 0;
+    background-size: cover;
+  }
+
+  .top-head::before {
+    padding: 0;
+  }
+
+  .top-head h2 {
+    font-size: 22px;
+  }
+
+  .interactive .service {
+    background-color: #16a085;
+    position: relative;
+    z-index: 5;
+    top: 0;
+  }
+
+  .interactive .row .row a.col-md-6 {
+    border-bottom: 1px solid #ffffff;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    padding: 27px 0;
+  }
+
+  .interactive .row .row:last-child a:nth-child(2) {
+    border: none;
+  }
+
+  .interactive .row a:hover {
+    background-color: #107e68;
+  }
+
+  .hamkorlar img {
+    width: 100%;
+  }
+  /* to top btn */
+  .scrollToTopBtn {
+    line-height: 30px;
+    width: 30px;
+    font-size: 12px;
+  }
+
+  .card h5 {
+    font-size: 1.15em;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+}
