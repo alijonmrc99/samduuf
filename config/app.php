@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => (bool)env('APP_DEBUG', false),
+    'debug' => (bool)env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://new.samtuit.uz'),
+    'url' => env('APP_URL', 'http://samtuit.uz'),
 
     'asset_url' => env('ASSET_URL', null),
 
