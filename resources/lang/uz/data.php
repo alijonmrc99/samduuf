@@ -37,7 +37,7 @@ return [
     ],
     'structures' => [
         'general-information' => 'Umumiy ma\'lumot',
-        'university-regulations' => 'Universitet nizomi',
+        'university-regulations' => 'Universitet nizomim',
         'director-congratulations' => 'Direktor tabrigi',
         'leadership' => 'Rahbaryat',
         'faculties' => 'Fakultetlar',
