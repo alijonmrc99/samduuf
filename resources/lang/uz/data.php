@@ -70,7 +70,7 @@ return [
     'telephones' => 'Telefonlar',
     'our-mail' => 'Bizning Pochta',
     'contact' => 'Bog\'lanish',
-    'questions-apples' => 'Savol va murojarlar',
+    'questions-apples' => 'Savol va murojaatlar',
     'name' => 'Ismingiz',
     'surname' => 'Familyangiz',
     'email' => 'Pochtangiz',
