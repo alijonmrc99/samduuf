@@ -8,7 +8,7 @@ return [
     'statistics' => 'Statistika',
     'video-clips' => 'Video lavhalar',
     'useful-sites' => 'Foydali saytlar',
-    'our-partners' => 'Bizning hamlorlar',
+    'our-partners' => 'Bizning hamkorlar',
     'structure' => 'Tuzilma',
     'activity' => 'Faoliyat',
     'our-address' => 'Bizning manzil',
