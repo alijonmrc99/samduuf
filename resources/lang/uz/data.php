@@ -39,7 +39,7 @@ return [
         'general-information' => 'Umumiy ma\'lumot',
         'university-regulations' => 'Universitet nizomi',
         'director-congratulations' => 'Direktor tabrigi',
-        'leadership' => 'Raxbaryat',
+        'leadership' => 'Rahbaryat',
         'faculties' => 'Fakultetlar',
         'departments' => 'Kafedralar',
         'centres-and-departments' => 'Bo\'lim va markarlar',
