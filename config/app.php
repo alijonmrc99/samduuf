@@ -92,7 +92,7 @@ return [
 
     'locale_names' => [
         'uz' => "O'zbek",
-        'kuz' => 'Ўзбек',
+        #'kuz' => 'Ўзбек',
         'ru' => 'Русский',
         'en' => 'English'
     ],
