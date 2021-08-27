@@ -99,7 +99,7 @@ return [
 
     'route_access' => ['menu', 'page', 'post', 'banner', 'users', 'contact'],
 
-    'director_email' => 'alijonmrc99@gmail.com',
+    'director_email' => 'info@samtuit.uz',
 
     /*
     |--------------------------------------------------------------------------
