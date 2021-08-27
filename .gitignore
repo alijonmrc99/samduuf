@@ -12,5 +12,6 @@ npm-debug.log
 yarn-error.log
 public/lfm
 public/images
-public/*
+public/*.png
+public/*.jpg
 
