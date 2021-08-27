@@ -85,7 +85,7 @@ return [
 
     'available_locales' => [
         'uz',   //Uzbek
-        'kuz',  //Kiril-Uzbek
+//         'kuz',  //Kiril-Uzbek
         'en',   //English
         'ru',   //Russian
     ],
