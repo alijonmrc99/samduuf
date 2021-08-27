@@ -27,7 +27,7 @@ class PostViewRepository extends BaseRepository
         return $this->model
             ->newQuery()
             ->where('post_id', $post_id)
-            ->distinct(['session_id', 'ip', 'agent'])
+            ->distinct(['ip'])
             ->count();
     }
 
