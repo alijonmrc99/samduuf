@@ -85,11 +85,27 @@ a {
   justify-content: space-between;
   box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%);
   position: relative;
+  font-size: 13px;
 }
 
 .navbar img {
-  width: 90px;
-  margin: 15px 30px;
+  width: 80px;
+  margin: 0 10px 0 20px;
+}
+
+.navbar .logo-link{
+  display: flex;
+  align-items: center;
+  white-space: pre-wrap;
+}
+
+.navbar .logo-text{
+  font-size: 10px;
+  width: 170px;
+  display: inline-block;
+  color: var(--font-color);
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .navbar-collapse {
@@ -272,7 +288,7 @@ a {
 /* katta menu uchun stillar */
 .big-menu {
   display: flex;
-  left: -450px;
+  left: -350px;
 }
 
 .big-men h4 {
@@ -283,7 +299,7 @@ a {
 
 .big-menu li {
   margin-right: 15px;
-  width: 250px;
+  width: 200px;
 }
 
 .oxirgi_menu {
@@ -953,7 +969,7 @@ form.container input[type="submit"]{
   }
   .big-menu li {
     /* margin-right: 15px; */
-    width: 220px;
+    width: 180px;
   }
   .oxirgi_menu {
     left: -750px;

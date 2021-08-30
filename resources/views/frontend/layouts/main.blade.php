@@ -20,7 +20,11 @@
     <header>
         <!-- Navbar start -->
         <nav class="navbar navbar-expand-lg m-0 p-0">
-            <div><a class="navbar-brand m-0 p-0" href="/"><img src="{{asset('frontend/img/Logo/Logo.jpg')}}" alt="Logo"></a>
+            <div class="navbar-brand m-0 p-0">
+                <a class="logo-link" href="/">
+                <img src="{{asset('frontend/img/Logo/Logo.png')}}" alt="Logo">
+                <span class="logo-text d-none d-xl-block">Muhammad al-Xorazmiy nomidagi Toshkent Axborot Texnologiyalari Universiteti Samarqand filiali</span>
+            </a>
             </div>
             <button id="navbarToggle" class="navbarToggle"><i class="fas fa-bars"></i></button>
             <div class="navbar-menu" id="navbarSupportedContent">
