@@ -125,7 +125,7 @@
                             style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
                 <div class="col-12 py-3 bottom">
-                    <p class="m-0">© Copyright 2021, Kuvondikoff</p>
+                    <p class="m-0">&copy; Copyright 2021 | Kuvondikoff, Sultonov</p>
                 </div>
             </div>
         </div>

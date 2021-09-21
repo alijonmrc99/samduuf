@@ -22,7 +22,7 @@ return [
         'adoption' => 'Oliy ma\'lumot haqidagi diplomni tasdiqlash',
         'certificate' => 'Ish joyidan ma\'lumotnoma olish',
         'online-education' => 'Online ta\'lim',
-        'documents' => 'Hujjatlarni qaytarib olish',
+        'documents' => 'Talabalik haqida ma\'ulmotnoma olish',
         'online-bachelor' => 'Abituriyentlar arizasini online topshirish(Bakalavr)',
         'online-master' => 'Abituriyentlar arizasini online topshirish(Magistratura)'
     ],

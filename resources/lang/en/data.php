@@ -22,7 +22,7 @@ return [
         'adoption' => 'Adoption of a diploma of higher education',
         'certificate' => 'Get a certificate from the place of work',
         'online-education' => 'Online education',
-        'documents' => 'Withdrawal of documents',
+        'documents' => 'Get a student certificate',
         'online-bachelor' => 'Application  online (Bachelor)',
         'online-master' => 'Application  online (Master\'s degree)'
     ],
