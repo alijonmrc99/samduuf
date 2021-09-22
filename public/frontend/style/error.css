@@ -8,14 +8,11 @@
 body{
     font-family: Raleway, sans-serif;
     font-size: 16px;
-    width: 100%;
 }
 
 .container{
     background-color: #16A085;
     width: 100vw;
-    
-    overflow: hidden;
     height: 100vh;
     color: #fff;
     display: flex;
@@ -76,8 +73,6 @@ body{
     color: #2C3E50;
     font-weight: 400;
 }
-
-/* @meda */
 
 
 

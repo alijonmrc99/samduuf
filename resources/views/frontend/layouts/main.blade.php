@@ -113,7 +113,7 @@
                     <ul>
                         <li>{!! __('data.adress') !!}
                         </li>
-                        <li><a href="mailto:admin@samtuit.uz">info@samtuit.uz</a></li>
+                        <li><a href="mailto:admin@samtuit.uz">admin@samtuit.uz</a></li>
                         <li><a href="tel:+998 (66) 232 2929">+998 (66) 232 2929</a></li>
                         <li>18, 31, 37, 45, 51, 52, 60</li>
                     </ul>
