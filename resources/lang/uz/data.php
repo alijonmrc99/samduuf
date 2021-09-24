@@ -22,7 +22,7 @@ return [
         'adoption' => 'Oliy ma\'lumot haqidagi diplomni tasdiqlash',
         'certificate' => 'Ish joyidan ma\'lumotnoma olish',
         'online-education' => 'Online ta\'lim',
-        'documents' => 'Talabalik haqida ma\'ulmotnoma olish',
+        'documents' => 'Talabalik haqida ma\'lumotnoma olish',
         'online-bachelor' => 'Abituriyentlar arizasini online topshirish(Bakalavr)',
         'online-master' => 'Abituriyentlar arizasini online topshirish(Magistratura)'
     ],
@@ -37,12 +37,12 @@ return [
     ],
     'structures' => [
         'general-information' => 'Umumiy ma\'lumot',
-        'university-regulations' => 'Universitet nizomim',
+        'university-regulations' => 'Universitet nizomi',
         'director-congratulations' => 'Direktor tabrigi',
-        'leadership' => 'Rahbaryat',
+        'leadership' => 'Rahbariyat',
         'faculties' => 'Fakultetlar',
         'departments' => 'Kafedralar',
-        'centres-and-departments' => 'Bo\'lim va markarlar',
+        'centres-and-departments' => 'Bo\'lim va markazlar',
     ],
     'activities' => [
         'scientific' => 'Ilmiy faoliyat',
@@ -61,7 +61,7 @@ return [
     ],
     'statistic' => [
         'students' => 'Talabalar',
-        'teachers' => 'Professor o\'qtuvchilar',
+        'teachers' => 'Professor o\'qituvchilar',
         'alumni' => 'Bitiruvchilar',
         'book' => 'Kitob fondi',
     ],
@@ -74,7 +74,7 @@ return [
     'name' => 'Ismingiz',
     'surname' => 'Familyangiz',
     'email' => 'Pochtangiz',
-    'question-content' => 'Savol va murojat mazmuni',
+    'question-content' => 'Savol va murojaat mazmuni',
     'enter-captcha' => 'Capchani kiriting',
     'details' => 'Rekvizitlar',
     'detailss' => [
@@ -102,5 +102,3 @@ return [
     'submit' => 'Yuborish',
 
 ];
-
-
