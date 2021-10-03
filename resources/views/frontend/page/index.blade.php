@@ -6,7 +6,7 @@
     </div>
 
     <main class="container one-news mt-4">
-        <div class="row">
+        <div class="row m-0">
             <section class="menu col-lg-2 mt-4 d-none d-lg-block">
                 @include('frontend.layouts.quick-menu')
             </section>

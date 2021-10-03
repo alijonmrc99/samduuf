@@ -164,6 +164,8 @@
             selector: 'textarea.my-editor',
             relative_urls: false,
             height: '550',
+            inline_styles : true,
+            extended_valid_elements : 'style[src|async|defer|type|charset]',
             plugins: [
                 "advlist autolink lists link image charmap print preview hr anchor pagebreak",
                 "searchreplace wordcount visualblocks visualchars code fullscreen",
