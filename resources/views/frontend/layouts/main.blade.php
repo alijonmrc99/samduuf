@@ -39,9 +39,8 @@
                             @endforeach
                         </div>
                     </li>
-                    <li><a href="http://student.samtuit.uz/">Hemis Student</a></li>
-                    <li><a href="http://hemis.samtuit.uz/">Hemis OTM</a></li>
-                    <li><a href="http://mt.samtuit.uz/">Moodle</a></li>
+                    <li><a href="https://student.samtuit.uz/">Hemis Student</a></li>
+                    <li><a href="https://hemis.samtuit.uz/">Hemis OTM</a></li>
                 </ul>
                 {{--                @dump($menus[0]['data'])--}}
                 <ul class="navbar-nav  navbar-col-md-2">
@@ -106,6 +105,11 @@
                         <li><a href="#">{{__('data.activities.international')}}</a></li>
                         <li><a href="#">{{__('data.activities.financial')}}</a></li>
                         <li><a href="#">{{__('data.activities.cultural-educational')}}</a></li>
+                        <li class="online-platform">Online platformalar</li>
+                        <li><a href="https://student.samtuit.uz/">Hemis Student</a></li>
+                        <li><a href="https://hemis.samtuit.uz/">Hemis OTM</a></li>
+                        <li><a href="https://sis.samtuit.uz/">SIS</a></li>
+                        <li><a href="https://lms.samtuit.uz/">LMS</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 col-12 pl-4 pl-md-0">
