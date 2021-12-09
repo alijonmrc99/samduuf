@@ -39,7 +39,7 @@ return [
         'general-information' => 'General information',
         'university-regulations' => 'University regulations',
         'director-congratulations' => 'Director\'s congratulations',
-        'leadership' => 'Leadership',
+        'leadership' => 'Administration',
         'faculties' => 'Faculties',
         'departments' => 'Departments',
         'centres-and-departments' => 'Centres and departments',

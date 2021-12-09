@@ -28,7 +28,7 @@ return [
     ],
     'quick-menu' => [
         'faculties' => 'Факультеты',
-        'departments' => 'Отделы',
+        'departments' => 'Кафедры',
         'vacancies' => 'Свободные места',
         'centres-and-departments' => 'Центры и отделы',
         'entrant' => 'Абитуриент',
@@ -39,9 +39,9 @@ return [
         'general-information' => 'Общая информация',
         'university-regulations' => 'Устав университета',
         'director-congratulations' => 'Поздравление директора',
-        'leadership' => 'Лидерство',
+        'leadership' => 'Администрация',
         'faculties' => 'Факультеты',
-        'departments' => 'Отделы',
+        'departments' => 'Кафедры',
         'centres-and-departments' => 'Центры и отделы',
     ],
     'activities' => [
