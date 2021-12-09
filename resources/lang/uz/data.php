@@ -77,6 +77,7 @@ return [
     'question-content' => 'Savol va murojaat mazmuni',
     'enter-captcha' => 'Capchani kiriting',
     'details' => 'Rekvizitlar',
+    'online-platform' => 'Online platformalar',
     'detailss' => [
         'contract' => '<h4>TATU Samarqand filiali (Kontrakt)</h4>
             <p>XR: 23402000300100001010</p>

@@ -104,7 +104,7 @@
                         <li><a href="https://samtuit.uz/uz/page/international-partner-organizations-11-08-2021">{{__('data.activities.international')}}</a></li>
                         <li><a href="https://samtuit.uz/uz/page/marketing-11-08-2021">{{__('data.activities.financial')}}</a></li>
                         <li><a href="https://samtuit.uz/uz/page/cultural-and-educational-events-11-08-2021">{{__('data.activities.cultural-educational')}}</a></li>
-                        <li class="online-platform">Online platformalar</li>
+                        <li class="online-platform">{{__('data.online-platform')}}</li>
                         <li><a href="https://student.samtuit.uz/">Hemis Student</a></li>
                         <li><a href="https://hemis.samtuit.uz/">Hemis OTM</a></li>
                         <li><a href="https://sis.samtuit.uz/">SIS</a></li>

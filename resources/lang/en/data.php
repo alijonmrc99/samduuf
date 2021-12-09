@@ -76,8 +76,10 @@ return [
     'question-content' => 'Question and reference content',
     'enter-captcha' => 'Enter captcha',
     'details' => 'Details',
+    'online-platform' => 'Online platforms',
     'detailss' => [
-        'contract' => '<h4>TUIT Samarkand branch (Contract)</h4>
+        'contract' => '
+            <h4>TUIT Samarkand branch (Contract)</h4>
                 <p>XR: 23402000300100001010</p>
                 <p>The Central Bank of the Republic of Uzbekistan</p>
                 <p>MFO 00014 STIR 201122919</p>
