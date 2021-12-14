@@ -6,7 +6,7 @@
                 <div><i class="fas fa-arrow-right"></i></div>
             </div>
         </a>
-        <a href="/page/departments-09-12-2021" class="m-1 m-lg-2 ">
+        <a href="/page/departments-11-08-2021" class="m-1 m-lg-2 ">
             <div class="quick-item">
                 <h3>{{__('data.quick-menu.departments')}}</h3>
                 <div><i class="fas fa-arrow-right"></i></div>
