@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+body {
     font-family: Raleway, sans-serif;
     font-size: 16px;
 }
 
-.container{
-    background-color: #16A085;
+.container {
+    background-color: #011d4b;
     width: 100vw;
     height: 100vh;
     color: #fff;
@@ -21,58 +21,54 @@ body{
     justify-content: space-around;
 }
 
-.container h1{
+.container h1 {
     font-weight: 400;
 }
-.error{
+.error {
     position: relative;
     font-family: "Open-sans", sans-serif;
 }
 
-.shadow{
+.shadow {
     position: absolute;
-    background-color: #16A085;
+    background-color: #011d4b;
     width: 400px;
     height: 120px;
     transform: rotate(-15deg) translate(-10px, -60px);
-    box-shadow: -8px -6px 6px rgba(0,0,0,0.16)
+    box-shadow: -8px -6px 6px rgba(0, 0, 0, 0.16);
 }
 
-.shadow-bottom{
+.shadow-bottom {
     position: absolute;
-    background-color: #16A085;
+    background-color: #011d4b;
     width: 400px;
     height: 120px;
     transform: translate(-50px, -2px);
 }
 
-.error .text{
+.error .text {
     font-size: 150px;
     font-weight: 700;
-    text-shadow: 14px -3px 6px rgba(0, 78, 68, 0.70);
+    text-shadow: 14px -3px 6px rgba(0, 22, 63, 0.7);
 }
 
-.error + div{
+.error + div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
 }
 
-
-.error + div span{
-   letter-spacing: 2px;
+.error + div span {
+    letter-spacing: 2px;
 }
-.error + div a{
+.error + div a {
     display: inline-block;
     padding: 20px 60px;
-    background-color: #BBFFF2;
+    background-color: #dff0ed;
     margin-top: 30px;
     border-radius: 10px;
     font-family: "Open-sans", sans-serif;
-    color: #2C3E50;
+    color: #2c3e50;
     font-weight: 400;
 }
-
-
-

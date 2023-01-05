@@ -14,7 +14,7 @@
                         <li class="breadcrumb-item active">{{__('data.news')}}</li>
                     </ol>
                 </nav>
-                <div class="row ">
+                <div class="row">
                     @foreach($posts as $post)
                         <div class="col-12 col-md-6 col-lg-4 mb-2 mb-md-0 mb-2 mb-md-0">
                             <div class="card mb-3">
