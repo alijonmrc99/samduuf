@@ -27,18 +27,18 @@ Route::get('/page/{slug}', function ($slug) {
 Route::get('/post/{slug}', function ($slug) {
     return redirect(session('locale', app()->getLocale()) . '/post/' . $slug);
 });
-Route::get('/posts', function (){
+Route::get('/posts', function () {
     return redirect(session('locale', app()->getLocale()) . '/posts');
 });
-Route::get('/post-news', function (){
+Route::get('/post-news', function () {
     return redirect(session('locale', app()->getLocale()) . '/post-news');
 });
-Route::get('/post-ads', function (){
+Route::get('/post-ads', function () {
     return redirect(session('locale', app()->getLocale()) . '/post-ads');
 });
 
-Route::post('/contact',['App\Http\Controllers\Frontend\ContactController','store'])->name('contact-send');
-Route::get('/contact',function(){
+Route::post('/contact', ['App\Http\Controllers\Frontend\ContactController', 'store'])->name('contact-send');
+Route::get('/contact', function () {
     return redirect(session('locale', app()->getLocale()) . '/contact');
 });
 Route::get('/reload-captcha', ['App\Http\Controllers\Frontend\CaptchaServiceController', 'reloadCaptcha']);
@@ -56,7 +56,7 @@ Route::group($frontend_attributes, function () {
     Route::get('/posts', ['App\Http\Controllers\Frontend\PostController', 'allPost'])->name('post.all');
     Route::get('/post-news', ['App\Http\Controllers\Frontend\PostController', 'allPostNews'])->name('post.news');
     Route::get('/post-ads', ['App\Http\Controllers\Frontend\PostController', 'allPostAds'])->name('post.ads');
-    Route::get('/contact',['App\Http\Controllers\Frontend\ContactController','index'])->name('contact');
+    Route::get('/contact', ['App\Http\Controllers\Frontend\ContactController', 'index'])->name('contact');
 });
 
 /***
@@ -68,7 +68,7 @@ Route::group($frontend_attributes, function () {
  * Begining of Backend Routes
  */
 
-Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale','route.access']], function () {
+Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale', 'route.access']], function () {
 
     Route::group(['middleware' => 'auth', 'namespace' => '\App\Http\Controllers\Backend'], function () {
         Route::get('/', ['uses' => 'HomeController@index'])->name('admin.home');
@@ -87,7 +87,7 @@ Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale','route.acc
 
         });
 
-        Route::group(['prefix' => '/users','as' => 'admin.user.', 'namespace' => '\App\Http\Controllers\Backend'],function (){
+        Route::group(['prefix' => '/users', 'as' => 'admin.user.', 'namespace' => '\App\Http\Controllers\Backend'], function () {
             Route::get('/', ['uses' => 'UserController@index'])->name('index');
             Route::get('/create', ['uses' => 'UserController@create'])->name('create');
             Route::post('/create', ['uses' => 'UserController@store'])->name('create');
@@ -126,10 +126,19 @@ Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale','route.acc
             Route::delete('/delete/{id}', ['uses' => 'PostController@delete'])->name('post.delete');
         });
 
-        Route::group(['prefix' => '/contact', 'as' => 'admin.'],function (){
+        Route::group(['prefix' => '/contact', 'as' => 'admin.'], function () {
             Route::get('/', ['App\Http\Controllers\Backend\ContactController', 'index'])->name('contact');
             Route::get('/view/{id}', ['App\Http\Controllers\Backend\ContactController', 'show'])->name('contact.view');
             Route::delete('/delete/{id}', ['App\Http\Controllers\Backend\ContactController', 'delete'])->name('contact.delete');
+        });
+
+        Route::group(['prefix' => '/useful-sites', 'as' => 'admin.'], function () {
+            Route::get('/',['App\Http\Controllers\Backend\UsefulSiteController','index'])->name('useful-site');
+            Route::get('/create',['App\Http\Controllers\Backend\UsefulSiteController','create'])->name('useful-site.create');
+            Route::post('/store',['App\Http\Controllers\Backend\UsefulSiteController','store'])->name('useful-site.store');
+            Route::get('/edit/{id}',['App\Http\Controllers\Backend\UsefulSiteController','edit'])->name('useful-site.edit');
+            Route::put('/update/{id}',['App\Http\Controllers\Backend\UsefulSiteController','update'])->name('useful-site.update');
+            Route::delete('/delete/{id}',['App\Http\Controllers\Backend\UsefulSiteController','delete'])->name('useful-site.delete');
         });
 
         Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');

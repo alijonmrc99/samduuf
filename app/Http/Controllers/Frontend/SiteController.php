@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\UsefulSite;
 use App\Services\BannerService;
 use App\Services\MenuService;
 use App\Services\PostService;
@@ -26,6 +27,7 @@ class SiteController extends Controller
     public function index($locale)
     {
         try {
+            $usefulSites = UsefulSite::query()->orderByDesc('order')->get();
             $banners = $this->bannerService->getAll();
             $latestFiveNews = $this->postService->getLatestFiveNews();
             $latestFiveAds = $this->postService->getLatestFiveAd();
@@ -40,7 +42,8 @@ class SiteController extends Controller
             'latestFiveNews' => $latestFiveNews,
             'latestFiveAds' => $latestFiveAds,
             'postViews' => $postViews,
-            'locale' => $locale
+            'locale' => $locale,
+            'usefulSites' => $usefulSites
         ]);
     }
 
