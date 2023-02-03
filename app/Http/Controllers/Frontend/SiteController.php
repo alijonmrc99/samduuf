@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use App\Models\UsefulSite;
+use App\Models\VideoClip;
 use App\Services\BannerService;
 use App\Services\MenuService;
 use App\Services\PostService;
@@ -28,12 +29,13 @@ class SiteController extends Controller
     {
         try {
             $usefulSites = UsefulSite::query()->orderByDesc('order')->get();
+            $videoClip = VideoClip::query()->where('is_main', true)->first();
             $banners = $this->bannerService->getAll();
             $latestFiveNews = $this->postService->getLatestFiveNews();
             $latestFiveAds = $this->postService->getLatestFiveAd();
             $news_ids = $latestFiveNews->pluck('id')->toArray();
             $ads_ids = $latestFiveAds->pluck('id')->toArray();
-            $postViews = $this->postViewService->countByIds($news_ids,$ads_ids);
+            $postViews = $this->postViewService->countByIds($news_ids, $ads_ids);
         } catch (\Exception $e) {
 
         }
@@ -43,7 +45,8 @@ class SiteController extends Controller
             'latestFiveAds' => $latestFiveAds,
             'postViews' => $postViews,
             'locale' => $locale,
-            'usefulSites' => $usefulSites
+            'usefulSites' => $usefulSites,
+            'videoClip' => $videoClip
         ]);
     }
 

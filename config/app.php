@@ -97,7 +97,7 @@ return [
         'en' => 'English'
     ],
 
-    'route_access' => ['menu', 'page', 'post', 'banner', 'users', 'contact'],
+    'route_access' => ['menu', 'page', 'post', 'banner', 'users', 'contact', 'useful-sites', 'video-clip'],
 
     'director_email' => 'info@samtuit.uz',
 

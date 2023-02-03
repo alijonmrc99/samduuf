@@ -8,6 +8,7 @@
             <li><a href="{{route('admin.banner')}}"><i class="icofont icofont-picture"></i> Banner</a></li>
             <li><a href="{{route('admin.contact')}}"><i class="icofont icofont-contacts"></i> Contact</a></li>
             <li><a href="{{route('admin.useful-site')}}"><i class="icofont icofont-social-slidshare"></i> Useful sites</a></li>
+            <li><a href="{{route('admin.video-clip')}}"><i class="icofont icofont-video"></i> Video clips</a></li>
             <li><a href="{{route('admin.user.index')}}"><i class="icofont icofont-user"></i> Users</a></li>
             <li><a href="{{route('admin.user.settings')}}"><i class="icofont icofont-user"></i> Settings</a></li>
             <li><a href="{{route('logout')}}"><i class="icofont icofont-exit"></i> Logout</a></li>

@@ -133,12 +133,21 @@ Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale', 'route.ac
         });
 
         Route::group(['prefix' => '/useful-sites', 'as' => 'admin.'], function () {
-            Route::get('/',['App\Http\Controllers\Backend\UsefulSiteController','index'])->name('useful-site');
-            Route::get('/create',['App\Http\Controllers\Backend\UsefulSiteController','create'])->name('useful-site.create');
-            Route::post('/store',['App\Http\Controllers\Backend\UsefulSiteController','store'])->name('useful-site.store');
-            Route::get('/edit/{id}',['App\Http\Controllers\Backend\UsefulSiteController','edit'])->name('useful-site.edit');
-            Route::put('/update/{id}',['App\Http\Controllers\Backend\UsefulSiteController','update'])->name('useful-site.update');
-            Route::delete('/delete/{id}',['App\Http\Controllers\Backend\UsefulSiteController','delete'])->name('useful-site.delete');
+            Route::get('/', ['App\Http\Controllers\Backend\UsefulSiteController', 'index'])->name('useful-site');
+            Route::get('/create', ['App\Http\Controllers\Backend\UsefulSiteController', 'create'])->name('useful-site.create');
+            Route::post('/store', ['App\Http\Controllers\Backend\UsefulSiteController', 'store'])->name('useful-site.store');
+            Route::get('/edit/{id}', ['App\Http\Controllers\Backend\UsefulSiteController', 'edit'])->name('useful-site.edit');
+            Route::put('/update/{id}', ['App\Http\Controllers\Backend\UsefulSiteController', 'update'])->name('useful-site.update');
+            Route::delete('/delete/{id}', ['App\Http\Controllers\Backend\UsefulSiteController', 'delete'])->name('useful-site.delete');
+        });
+
+        Route::group(['prefix' => '/video-clip', 'as' => 'admin.'], function () {
+            Route::get('/',['App\Http\Controllers\Backend\VideoClipController','index'])->name('video-clip');
+            Route::get('/create',['App\Http\Controllers\Backend\VideoClipController','create'])->name('video-clip.create');
+            Route::post('/store', ['App\Http\Controllers\Backend\VideoClipController', 'store'])->name('video-clip.store');
+            Route::get('/edit/{id}', ['App\Http\Controllers\Backend\VideoClipController', 'edit'])->name('video-clip.edit');
+            Route::put('/update/{id}', ['App\Http\Controllers\Backend\VideoClipController', 'update'])->name('video-clip.update');
+            Route::delete('/delete/{id}', ['App\Http\Controllers\Backend\VideoClipController', 'destroy'])->name('video-clip.delete');
         });
 
         Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');

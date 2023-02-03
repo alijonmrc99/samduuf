@@ -118,8 +118,9 @@ const closeBtn = document.querySelector(".close-btn");
 let isClose = false;
 
 playBtn.onclick = () => {
+    let video_src = playBtn.dataset.src;
     isClose = false;
-    ifreme.src = "https://www.youtube.com/embed/Yo8fLZVwmlc";
+    ifreme.src = video_src;
     ifremeBox.style.visibility = "visible";
     ifremeBox.style.transform = "scale(1)";
     ifremeBox.style.borderRadius = "0";
