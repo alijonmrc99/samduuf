@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Backend\PhotoGalleriesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -142,13 +143,15 @@ Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale', 'route.ac
         });
 
         Route::group(['prefix' => '/video-clip', 'as' => 'admin.'], function () {
-            Route::get('/',['App\Http\Controllers\Backend\VideoClipController','index'])->name('video-clip');
-            Route::get('/create',['App\Http\Controllers\Backend\VideoClipController','create'])->name('video-clip.create');
+            Route::get('/', ['App\Http\Controllers\Backend\VideoClipController', 'index'])->name('video-clip');
+            Route::get('/create', ['App\Http\Controllers\Backend\VideoClipController', 'create'])->name('video-clip.create');
             Route::post('/store', ['App\Http\Controllers\Backend\VideoClipController', 'store'])->name('video-clip.store');
             Route::get('/edit/{id}', ['App\Http\Controllers\Backend\VideoClipController', 'edit'])->name('video-clip.edit');
             Route::put('/update/{id}', ['App\Http\Controllers\Backend\VideoClipController', 'update'])->name('video-clip.update');
             Route::delete('/delete/{id}', ['App\Http\Controllers\Backend\VideoClipController', 'destroy'])->name('video-clip.delete');
         });
+
+        Route::resource('photo-galleries', 'PhotoGalleriesController', ['as' => 'admin']);
 
         Route::get('/logout', [App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout');
         Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
