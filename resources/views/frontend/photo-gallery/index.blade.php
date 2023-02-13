@@ -1,7 +1,7 @@
 @extends('frontend.layouts.main')
 @section('content')
 <div class="container py-3">
-    <h1 class="text-center my-4">Ramlar gelleriyasi</h1>
+    <h1 class="text-center my-4">Ramslar gelleriyasi</h1>
     <div class="image-gallery ">
         <div class="row">
             @foreach($photos as $photo)

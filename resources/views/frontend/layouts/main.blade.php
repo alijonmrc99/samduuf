@@ -65,17 +65,17 @@
             <div class="p-0 d-flex justify-content-between align-items-center m-0 px-4">
                 <ul class="m-0 d-flex justify-content-between align-items-center topbar">
                     <li>
-                        <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D0%B1_%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B0">
+                        <a href="/page/gerb-13-02-2023">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/200px-Emblem_of_Uzbekistan.svg.png" alt="111">
                         </a>
                     </li>
                     <li>
-                        <a href="https://uz.wikipedia.org/wiki/O%CA%BBzbekiston_bayrog%CA%BBi">
+                        <a href="/page/bayroq-13-02-2023">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/330px-Flag_of_Uzbekistan.svg.png" alt="111">
                         </a>
                     </li>
                     <li>
-                        <a href="https://uz.wikipedia.org/wiki/O%CA%BBzbekiston_Respublikasi_Davlat_madhiyasi">
+                        <a href="/page/madhiya-13-02-2023">
                             <img src="https://www.samdu.uz/images/anthem.png" alt="111">
                         </a>
                     </li>
