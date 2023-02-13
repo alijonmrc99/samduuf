@@ -6,7 +6,7 @@ return [
     'annuncements' => 'ANNUNCEMENTS',
     'interactive-services' => 'INTERACTIVE SERVICES',
     'statistics' => 'STATISTICS',
-    'video-clips' => 'VIDEO CLIPS',
+    'video-clips' => 'VIDEO AND PICTURES',
     'useful-sites' => 'USEFUL SITES',
     'our-partners' => 'OUR PARTNERS',
     'structure' => 'STRUCTURE',
@@ -79,28 +79,8 @@ return [
     'working-time' => 'Working time',
     'week' => 'Monday - Saturday',
     'online-platform' => 'Online platforms',
-    'detailss' => [
-        'contract' => '
-            <h4>TUIT Samarkand branch (Contract)</h4>
-                <p>XR: 23402000300100001010</p>
-                <p>The Central Bank of the Republic of Uzbekistan</p>
-                <p>MFO 00014 STIR 201122919</p>
-                <p>SHXR: 400910860184017950100078001</p>
-                <p>STIR 205773414 OKONX 92110</p>',
-        'grand' => '
-                <h4>TUIT Samarkand branch (Budget)</h4>
-                <p>XR: 23402000300100001010</p>
-                <p>The Central Bank of the Republic of Uzbekistan</p>
-                <p>MFO 00014  STIR 201122919</p>
-                <p>SHXR: 100010860184017094100078001</p>
-                <p>STIR 205773414 OKONX 80300</p>',
-        'special-account' => '
-                <h4>TUIT Samarkand branch (SPETS)</h4>
-                <p>XR: 23402000300100001010</p>
-                <p>The Central Bank of the Republic of Uzbekistan</p>
-                <p>MFO 00014  STIR 201122919</p>
-                <p>SHXR: 400110860184017094100078001</p>
-                <p>STIR 205773414 OKONX 80300</p>',
-    ],
+    'video' => "Video clips",
+    'fotogalery' => "Photogallery",
+    'view-all' => "See all",
     'submit' => 'Submit',
 ];

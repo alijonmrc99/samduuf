@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{asset('frontend/style/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/style/main.css')}}"> 
     <link rel="stylesheet" href="{{asset('frontend/style/slick.css')}}">
-    <link rel="stylesheet" href="{{asset('frontend/style/snowfall.css')}}">
+ 
 </head>
 
 
@@ -20,7 +20,7 @@
 <!-- Main page -->
 <div class="container-fluit">
     <div class="loading">
-        <img width="70px" src="{{asset('frontend/img/Logo/preload.png')}}" alt="logo">
+        <img width="70px" src="{{asset('frontend/img/Logo/Logo.png')}}" alt="logo">
         <div class="loader mt-4">
             <div>
                 <ul>
@@ -62,38 +62,60 @@
     <!-- Header  -->
     <div class="top">
         <nav>
-            <ul class="p-0 d-flex justify-content-end align-items-center m-0 px-4">
-                <li class="p-2"><a href="https://student.samduuf.uz/">Hemis student</a></li>
-                <li class="p-2"><a href="https://hemis.samduuf.uz/">Hemis OTM</a></li>
-                <li class="p-2">
-                    <div class="dropdown">
-                        <button class="btn p-0 btn-sm btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            {{config("app.locale_names." . request()->segment(1))}}
-                        </button>
-                        <ul class="dropdown-menu">
-                            @foreach(config('app.locale_names') as $index => $value)
-                                @if($index != request()->segment(1))
-                                <li>
-                                    @if($value == "O'zbek" )
-                                    <a class="dropdown-item border-bottom" href="/{{$index}}"> <img width="20px" src="{{asset('frontend/img/icon/uz.svg')}}" alt="111"> {{$value}}</a>
+            <div class="p-0 d-flex justify-content-between align-items-center m-0 px-4">
+                <ul class="m-0 d-flex justify-content-between align-items-center topbar">
+                    <li>
+                        <a href="https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D1%80%D0%B1_%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B0">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/200px-Emblem_of_Uzbekistan.svg.png" alt="111">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://uz.wikipedia.org/wiki/O%CA%BBzbekiston_bayrog%CA%BBi">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/330px-Flag_of_Uzbekistan.svg.png" alt="111">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://uz.wikipedia.org/wiki/O%CA%BBzbekiston_Respublikasi_Davlat_madhiyasi">
+                            <img src="https://www.samdu.uz/images/anthem.png" alt="111">
+                        </a>
+                    </li>
+                </ul>
+               <ul class="d-flex justify-content-between align-items-center m-0">
+                    <li class="p-2"><a href="https://student.samduuf.uz/">Hemis student</a></li>
+                    <li class="p-2"><a href="https://hemis.samduuf.uz/">Hemis OTM</a></li>
+                    <li class="p-2">
+                        <div class="dropdown">
+                            <button class="btn p-0 btn-sm btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                {{config("app.locale_names." . request()->segment(1))}}
+                            </button>
+                            <ul class="dropdown-menu">
+                                @php
+                                    $urn = str_replace( '/'.request()->segment(1),'',request()->getPathInfo())
+                                @endphp
+                                @foreach(config('app.locale_names') as $index => $value)
+                                    @if($index != request()->segment(1))
+                                    <li>
+                                        @if($value == "O'zbek" )
+                                        <a class="dropdown-item border-bottom" href="/{{$index}}{{$urn}}"> <img width="20px" src="{{asset('frontend/img/icon/uz.svg')}}" alt="111"> {{$value}}</a>
+                                        @endif
+                                        @if($value == "Русский" )
+                                        <a class="dropdown-item border-bottom" href="/{{$index}}{{$urn}}"> <img width="20px" src="{{asset('frontend/img/icon/ru.svg')}}" alt="111"> {{$value}}</a>
+                                        @endif
+                                        @if($value == "English" )
+                                        <a class="dropdown-item border-bottom" href="/{{$index}}{{$urn}}"> <img width="20px" src="{{asset('frontend/img/icon/gb.svg')}}" alt="111">{{$value}}</a>
+                                        @endif
+                                    </li>
                                     @endif
-                                    @if($value == "Русский" )
-                                    <a class="dropdown-item border-bottom" href="/{{$index}}"> <img width="20px" src="{{asset('frontend/img/icon/ru.svg')}}" alt="111"> {{$value}}</a>
-                                    @endif
-                                    @if($value == "English" )
-                                    <a class="dropdown-item border-bottom" href="/{{$index}}"> <img width="20px" src="{{asset('frontend/img/icon/gb.svg')}}" alt="111"> {{$value}}</a>
-                                    @endif
-                                </li>
-                                @endif
-                            @endforeach
-                        </ul>
-                    </div>
-                </li>
-            </ul>
+                                @endforeach
+                            </ul>
+                        </div>
+                    </li>
+               </ul>
+            </div>
         </nav>
     </div>
-    <header class="header position-sticky top-0">
+    <header id="navbar" class="header">
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container-fluid justify-content-between">
                 <a class="navbar-brand p-0 d-flex align-items-center" href="/">
@@ -108,6 +130,69 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
+                        @foreach($menus as $menu)
+                        <li class="nav-item">
+                            @if($menu['children'])
+                            <a class="nav-link" href="{{ $menu['children'] ? '#' : $menu['link'] }}">{{$menu['title']}} 
+                                <svg width="15px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path  d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/>
+                                </svg>
+                            </a>
+                            <ul class="drop-down px-0 py-2">
+                                @if($menu['hasDouble'])
+                                    @foreach($menu['children'] as $childs)
+                                        <li class="px-3">
+                                        @if(!$childs['children'])
+                                                    <a class="drop-down-link" href="{{$childs['link']}}"> {{$childs['title']}} </a>
+                                                @else
+                                                    <a class="drop-down-link" href="#">{{$childs['title']}} <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></a>
+                                                @endif
+                                            <ul class="deep-drop-down px-3 py-2">
+                                                @if($childs['children'])
+                                                    @foreach($childs['children'] as $new)
+                                                    <li>
+                                                        <a href="{{$new['link']}}">{{$new['title']}}</a>
+                                                    </li>
+                                                    @endforeach
+                                                @endif
+                                            </ul>
+                                        </li>
+                                    @endforeach
+                                    @else
+                                        @if($menu['children'])
+                                            @foreach($menu['children'] as $childs)
+                                            <li class="px-3"><a href="{{$childs['link']}}">{{$childs['title']}}</a></li>
+                                            @endforeach
+                                        @endif
+                                @endif
+                            </ul>
+                            @else 
+                            <a class="nav-link" href="{{ $menu['children'] ? '#' : $menu['link'] }}">{{$menu['title']}}</a>
+                            @endif
+                        </li>
+                       
+                        @endforeach
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header><!-- Header end -->
+    <header id="top-navbar" class="header w-100">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid justify-content-between">
+                <a class="navbar-brand p-0 d-flex align-items-center" href="/">
+                    <img width="70px" src="{{asset('frontend/img/Logo/Logo.png')}}" alt="logo">
+                    <h2 class="d-none d-lg-block mb-0 ">
+                        <p class="mb-0 ms-2 ">{{__('data.site-title')}}</p>
+                    </h2>
+                </a>
+                <button id="callapse" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                     <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
                         @foreach($menus as $menu)
                         <li class="nav-item">
@@ -262,18 +347,20 @@
         })
     }
     scrollToTopBtn.addEventListener("click", scrollToTop);
-</script>
-<script>
 
+    
+</script>
+
+<noscript><div><img src="https://mc.yandex.ru/watch/91968655" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
    function removePreLoader(){
        document.querySelector(".loading").style.display = "none"
-    // window.addEventListener("load", () => {
-    // });
-   }
-    document.addEventListener("DOMContentLoaded", () => {
+    }
+    window.addEventListener("load", () => {
         removePreLoader()
     });
-//    setTimeout(removePreLoader, 3000)
 </script>
 <script src="{{asset('frontend/js/jQuery.js')}}"></script>
 <script src="{{asset('frontend/js/bootstrap.bundle.js')}}"></script>

@@ -37,6 +37,12 @@ Route::get('/post-news', function () {
 Route::get('/post-ads', function () {
     return redirect(session('locale', app()->getLocale()) . '/post-ads');
 });
+Route::get('/photo-gallery', function () {
+    return redirect(session('locale', app()->getLocale()) . '/photo-gallery');
+});
+Route::get('/cache-clear',function (){
+    return \Illuminate\Support\Facades\Artisan::call('cache:clear');
+});
 
 Route::post('/contact', ['App\Http\Controllers\Frontend\ContactController', 'store'])->name('contact-send');
 Route::get('/contact', function () {
@@ -58,6 +64,7 @@ Route::group($frontend_attributes, function () {
     Route::get('/post-news', ['App\Http\Controllers\Frontend\PostController', 'allPostNews'])->name('post.news');
     Route::get('/post-ads', ['App\Http\Controllers\Frontend\PostController', 'allPostAds'])->name('post.ads');
     Route::get('/contact', ['App\Http\Controllers\Frontend\ContactController', 'index'])->name('contact');
+    Route::get('/photo-gallery', ['App\Http\Controllers\Frontend\PhotoGalleryController', 'index'])->name('photo-gallery');
 });
 
 /***

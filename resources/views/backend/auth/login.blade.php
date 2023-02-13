@@ -56,10 +56,6 @@
                             </button>
                         </form>
                     </div>
-
-                </div>
-                <div class="alert alert-primary text-center">
-                    Default(email/password) - <b>admin@samtuit.uz/123456</b>
                 </div>
             </div>
         </div>

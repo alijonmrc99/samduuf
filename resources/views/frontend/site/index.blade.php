@@ -143,49 +143,73 @@
         <!-- Video start -->
             <section class="container py-5 position-relative">
                 <h2 class="text-center mb-4">{{__('data.video-clips')}}</h2>
+                <div class="d-flex justify-content-center my-3">
+                    <button id="show-video" class="btn-show active-btn me-2">{{__('data.video')}}</button>
+                    <button id="show-gallery" class="btn-show">{{__('data.fotogalery')}}</button>
+                </div>
                 <div class="row justify-content-center">
-                    <div class="col-8 video" data-src="{{$videoClip->url}}">
-                        <div class="play-btn-box">
-                            <div class="play-button">
-                                <svg width="20" height="25" viewBox="0 0 20 25" fill="none"
-                                     xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M3.80208 1.05675C3.03125 0.576869 2.0625 0.561049 1.27604 1.00929C0.489583 1.45753 0 2.30128 0 3.21886V21.7814C0 22.6989 0.489583 23.5427 1.27604 23.9909C2.0625 24.4392 3.03125 24.4181 3.80208 23.9435L18.8021 14.6622C19.5469 14.2034 20 13.386 20 12.5001C20 11.6142 19.5469 10.8021 18.8021 10.338L3.80208 1.05675Z"
-                                        fill="black"/>
-                                </svg>
+                    <div id="gallery" class="row hidden-item">
+                        @foreach($photos as $photo)
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <article class="article mb-3">
+                                    <figure class="article__figure">
+                                        <img class="article__cover" src="{{$photo->image_path}}"/>
+                                        <figcaption class="article__caption">
+                                        <h5 class="article__title">{{ $photo->{'desc_uz'} }}</h5>
+                                        <p class="article__info">{{$photo->date}}</p>
+                                        </figcaption>
+                                    </figure>
+                                </article>
                             </div>
-                            <div class="play-btn-line1" id="line1">
-                                <div class="play-btn-line2" id="line2"></div>
-                            </div>
+                        @endforeach
+                        <div class="col text-center">
+                            <a class="btn-show" href="/photo-gallery">{{__('data.view-all')}}</a>
                         </div>
                     </div>
-                    <div class="ifreme-box">
-                        <svg class="close-btn" width="57" height="57" viewBox="0 0 57 57" fill="none"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <g filter="url(#filter0_d_54_6)">
-                                <path
-                                    d="M20.4738 22.8833C19.8488 22.2241 19.8488 21.1536 20.4738 20.4944C21.0988 19.8352 22.1138 19.8352 22.7388 20.4944L28.0038 26.0526L33.2738 20.4997C33.8988 19.8405 34.9138 19.8405 35.5388 20.4997C36.1638 21.1588 36.1638 22.2293 35.5388 22.8885L30.2688 28.4415L35.5338 33.9997C36.1588 34.6588 36.1588 35.7293 35.5338 36.3885C34.9088 37.0477 33.8938 37.0477 33.2688 36.3885L28.0038 30.8303L22.7338 36.3833C22.1088 37.0424 21.0938 37.0424 20.4688 36.3833C19.8438 35.7241 19.8438 34.6536 20.4688 33.9944L25.7388 28.4415L20.4738 22.8833Z"
-                                    fill="white"/>
-                            </g>
-                            <defs>
-                                <filter id="filter0_d_54_6" x="6.10352e-05" y="0" width="56.0075" height="56.8828"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-                                    <feColorMatrix in="SourceAlpha" type="matrix"
-                                                   values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                                                   result="hardAlpha"/>
-                                    <feOffset/>
-                                    <feGaussianBlur stdDeviation="10"/>
-                                    <feComposite in2="hardAlpha" operator="out"/>
-                                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.37 0"/>
-                                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_54_6"/>
-                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_54_6"
-                                             result="shape"/>
-                                </filter>
-                            </defs>
-                        </svg>
-                        <iframe id="iframe" width="1280" height="720" title="{{$videoClip->title}}" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                    <div id="video" class="">
+                        <div class="col-8 video" data-src="{{$videoClip->url}}">
+                            <div class="play-btn-box">
+                                <div class="play-button">
+                                    <svg width="20" height="25" viewBox="0 0 20 25" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.80208 1.05675C3.03125 0.576869 2.0625 0.561049 1.27604 1.00929C0.489583 1.45753 0 2.30128 0 3.21886V21.7814C0 22.6989 0.489583 23.5427 1.27604 23.9909C2.0625 24.4392 3.03125 24.4181 3.80208 23.9435L18.8021 14.6622C19.5469 14.2034 20 13.386 20 12.5001C20 11.6142 19.5469 10.8021 18.8021 10.338L3.80208 1.05675Z"
+                                            fill="black"/>
+                                    </svg>
+                                </div>
+                                <div class="play-btn-line1" id="line1">
+                                    <div class="play-btn-line2" id="line2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ifreme-box">
+                            <svg class="close-btn" width="57" height="57" viewBox="0 0 57 57" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_54_6)">
+                                    <path
+                                        d="M20.4738 22.8833C19.8488 22.2241 19.8488 21.1536 20.4738 20.4944C21.0988 19.8352 22.1138 19.8352 22.7388 20.4944L28.0038 26.0526L33.2738 20.4997C33.8988 19.8405 34.9138 19.8405 35.5388 20.4997C36.1638 21.1588 36.1638 22.2293 35.5388 22.8885L30.2688 28.4415L35.5338 33.9997C36.1588 34.6588 36.1588 35.7293 35.5338 36.3885C34.9088 37.0477 33.8938 37.0477 33.2688 36.3885L28.0038 30.8303L22.7338 36.3833C22.1088 37.0424 21.0938 37.0424 20.4688 36.3833C19.8438 35.7241 19.8438 34.6536 20.4688 33.9944L25.7388 28.4415L20.4738 22.8833Z"
+                                        fill="white"/>
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_54_6" x="6.10352e-05" y="0" width="56.0075" height="56.8828"
+                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                                        result="hardAlpha"/>
+                                        <feOffset/>
+                                        <feGaussianBlur stdDeviation="10"/>
+                                        <feComposite in2="hardAlpha" operator="out"/>
+                                        <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.37 0"/>
+                                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_54_6"/>
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_54_6"
+                                                    result="shape"/>
+                                    </filter>
+                                </defs>
+                            </svg>
+                            <iframe id="iframe" width="1280" height="720" title="{{$videoClip->title}}" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+                        </div>
                     </div>
                 </div>
             </section><!-- Video end -->

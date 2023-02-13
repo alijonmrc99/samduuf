@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Http\Controllers\Controller;
 use App\Models\UsefulSite;
 use App\Models\VideoClip;
+use App\Models\PhotoGallery;
 use App\Services\BannerService;
 use App\Services\MenuService;
 use App\Services\PostService;
@@ -36,6 +37,7 @@ class SiteController extends Controller
             $news_ids = $latestFiveNews->pluck('id')->toArray();
             $ads_ids = $latestFiveAds->pluck('id')->toArray();
             $postViews = $this->postViewService->countByIds($news_ids, $ads_ids);
+            $photos = PhotoGallery::orderByDesc('id')->limit(6)->get();
         } catch (\Exception $e) {
 
         }
@@ -46,7 +48,8 @@ class SiteController extends Controller
             'postViews' => $postViews,
             'locale' => $locale,
             'usefulSites' => $usefulSites,
-            'videoClip' => $videoClip
+            'videoClip' => $videoClip,
+            'photos' => $photos
         ]);
     }
 

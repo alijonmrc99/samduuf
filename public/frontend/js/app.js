@@ -140,3 +140,62 @@ ifremeBox.ontransitionend = () => {
         // console.log($(this.contentWindow.postMessage));
     }
 };
+
+// Video va rasm galleriya almashinishi;
+
+const videoShowBtn = document.getElementById("show-video");
+const galleryShowBtn = document.getElementById("show-gallery");
+const gallery = document.getElementById("gallery");
+const video = document.getElementById("video");
+// console.log(videoShowBtn, gallery, galleryShowBtn, video);
+videoShowBtn.onclick = () => {
+    if (gallery.classList.contains("show-item"))
+        gallery.classList.remove("show-item");
+
+    video.classList.add("show-item");
+    gallery.classList.add("hidden-item");
+
+    // if (galleryShowBtn.classList.contains("active-btn"))
+    // galleryShowBtn.classList.remove("active-btn");
+
+    videoShowBtn.classList.toggle("active-btn");
+    galleryShowBtn.classList.toggle("active-btn");
+};
+
+galleryShowBtn.onclick = () => {
+    if (video.classList.contains("show-item"))
+        video.classList.remove("show-item");
+
+    gallery.classList.add("show-item");
+    video.classList.add("hidden-item");
+
+    videoShowBtn.classList.toggle("active-btn");
+    galleryShowBtn.classList.toggle("active-btn");
+};
+
+window.onscroll = function () {
+    scrollFunction();
+};
+
+// const navbar = ;
+
+const myCollapsible = document.getElementById("navbarSupportedContent1");
+myCollapsible.addEventListener("show.bs.collapse", (event) => {
+    document.querySelector("#top-navbar").classList.add("bg-white");
+});
+myCollapsible.addEventListener("hidden.bs.collapse", (event) => {
+    document.querySelector("#top-navbar").classList.remove("bg-white");
+});
+
+function scrollFunction() {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
+        document.getElementById("navbar").style.top = "0";
+        document.getElementById("top-navbar").style.display = "none";
+    } else {
+        document.getElementById("navbar").style.top = "-150px";
+        document.getElementById("top-navbar").style.display = "block";
+    }
+}
