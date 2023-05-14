@@ -1,7 +1,7 @@
 <?php
 return [
     'home' => 'Bosh sahifa',
-    'last-news' => 'YANGIKLAR',
+    'last-news' => 'YANGILIKLAR',
     'news' => 'Yangiliklar',
     'annuncements' => 'E\'LONLAR',
     'statistics' => 'STATISTIKA',
@@ -11,7 +11,7 @@ return [
     'map' => 'Xarita',
     'read-more' => 'Batafsil',
     'seen' => 'Ko\'rildi',
-    'adress' => 'Samarqand viloyati Urgut tumani Vagashti MFY 13-uy',
+    'adress' => 'Samarqand viloyati Urgut tumani Vag\'ashti MFY 13-uy',
     'site-title' => 'Sharof Rashidov nomidagi Samarqand davlat universiteti Urgut filiali',
     'interactive-service' => [
         'adoption' => 'Oliy ma\'lumot haqidagi diplomni tasdiqlash',
@@ -23,21 +23,21 @@ return [
     ],
     'quick-menu' => [
         'hemis_otm' => 'Hemis OTM',
-        'hemis_otm-desc' => 'Universitet o’qituvchlari va hodimlari uchun oliy taʼlim jarayonlarini boshqarish axborot tizimi',
+        'hemis_otm-desc' => 'SamDU Urgut filiali talabari o’qituvchlari va Xodimlari uchun oliy taʼlim jarayonlarini boshqarish axborot tizimi',
         'hemis_student' => 'Hemis student',
-        'hemis_student-desc' => 'Universitet talabari uchun oliy taʼlim jarayonlariniboshqarish axborot tizimi',
+        'hemis_student-desc' => 'SamDU Urgut filiali talabari uchun oliy taʼlim jarayonlariniboshqarish axborot tizimi',
         'elibrary' => 'Elektron kutubxona',
-        'elibrary-desc' => 'Universitet talabari uchun darslik va o’quv qo’llanmalar jamlanmasi sayti',
+        'elibrary-desc' => 'SamDU Urgut filiali talabari uchun darslik va o’quv qo’llanmalar jamlanmasi elektron kutubxonasi',
         'schedule' => 'Dars jadvali',
-        'schedule-desc' => 'Universitet talabari o’qituvchilari uchun hemis bilan integratsiya qilingan online dars jadvali sayti',
+        'schedule-desc' => 'SamDU Urgut filiali talabari o’qituvchilari uchun hemis bilan integratsiya qilingan online dars jadvali platformasi',
     ],
     'useful-sites-names' => [
         'mygov' => 'YAGONA INTERAKTIV DAVLAT XIZMATLARI PORTALI',
         'uza' => 'O\'ZBEKISTON MILLIY AXBOROT AGENTLIGI',
         'constitution' => 'O\'ZBEKISTON RESPUBLIKASI KONSTITUTSIYASI',
-        'eduuz' => 'OLIY VA O\'RTA MAXSUS TA\'LIM VAZIRLIGI',
+        'eduuz' => 'OLIY T\'ALIM, FAN VA INNOVATSIYALAR VAZIRLIGI',
         'govuz' => 'O\'ZBEKISTON RESPUBLIKASI HUKUMAT PORTALI',
-        'lexuz' => 'O\'zbekiston respublikasi qonunchilik ma’lumotlari milliy bazasi',    
+        'lexuz' => 'O\'zbekiston respublikasi qonunchilik ma’lumotlari milliy bazasi',
     ],
     'activities' => [
         'scientific' => 'Ilmiy faoliyat',

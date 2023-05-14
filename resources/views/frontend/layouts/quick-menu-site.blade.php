@@ -1,7 +1,7 @@
 <div class="container faster-menu py-5">
         <div class="row">
             <div class="col-lg-3">
-                <a href="#">
+                <a href="https://hemis.samduuf.uz/dashboard/login">
                     <div class="card">
 
                         <div class="card-body">
@@ -21,7 +21,7 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="#">
+                <a href="https://student.samduuf.uz/dashboard/login">
                     <div class="card">
 
                         <div class="card-body">
@@ -41,7 +41,7 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="#">
+                <a href="https://t.me/SamDU_Urgut_filiali">
                     <div class="card">
                         <div class="card-body">
                             <div class="card-icon d-flex justify-content-center align-items-center">
@@ -63,7 +63,7 @@
                 </a>
             </div>
             <div class="col-lg-3">
-                <a href="#">
+                <a href="https://schedule.samduuf.uz/">
                     <div class="card">
                         <div class="card-body">
                             <div class="card-icon d-flex justify-content-center align-items-center">
