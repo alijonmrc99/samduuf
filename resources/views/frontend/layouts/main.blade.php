@@ -11,6 +11,70 @@
     <link rel="stylesheet" href="{{ asset('frontend/style/main.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/style/slick.css') }}">
 
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function(m, e, t, r, i, k, a) {
+            m[i] = m[i] || function() {
+                (m[i].a = m[i].a || []).push(arguments)
+            };
+            m[i].l = 1 * new Date();
+            for (var j = 0; j < document.scripts.length; j++) {
+                if (document.scripts[j].src === r) {
+                    return;
+                }
+            }
+            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(
+                k, a)
+        })
+        (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
+
+        ym(93769650, "init", {
+            clickmap: true,
+            trackLinks: true,
+            accurateTrackBounce: true,
+            webvisor: true
+        });
+    </script>
+    <noscript>
+        <div><img src="https://mc.yandex.ru/watch/93769650" style="position:absolute; left:-9999px;" alt="" />
+        </div>
+    </noscript>
+    <!-- /Yandex.Metrika counter -->
+
+    <!-- Top.Mail.Ru counter -->
+    <script type="text/javascript">
+        var _tmr = window._tmr || (window._tmr = []);
+        _tmr.push({
+            id: "3279096",
+            type: "pageView",
+            start: (new Date()).getTime()
+        });
+        (function(d, w, id) {
+            if (d.getElementById(id)) return;
+            var ts = d.createElement("script");
+            ts.type = "text/javascript";
+            ts.async = true;
+            ts.id = id;
+            ts.src = "https://top-fwz1.mail.ru/js/code.js";
+            var f = function() {
+                var s = d.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(ts, s);
+            };
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "tmr-code");
+    </script>
+    <noscript>
+        <div><img src="https://top-fwz1.mail.ru/counter?id=3279096;js=na" style="position:absolute;left:-9999px;"
+                alt="Top.Mail.Ru" /></div>
+    </noscript>
+    <!-- /Top.Mail.Ru counter -->
+
+
 </head>
 
 
@@ -392,39 +456,64 @@
                         </div>
                     </div>
                     <div class="col-12 footer-line"></div>
-                    <div class="col-lg-8 col-md-8 col-sm-12 text-copyright">© Samarkand State University Urgut
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-copyright">© Samarkand State University Urgut
                         Branch,<br> When
                         using the
                         materials of the site in full or in part, it is mandatory to indicate this source.<br>Attention!
                         If
                         you find an error in the text, select it and press Ctrl + Enter to notify the administration
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="col-lg-5 col-md-5 col-sm-12">
                         <div class="counters">
-
                             <div class="visitor-counter">
-                                <a data-turbo="true" href="http://www.uz/ru/res/visitor/index?id=1839"
-                                    target="_top">
-                                    <img src="https://cnt0.www.uz/counter/collect?id=1839&amp;r=https%3A//developers.google.com/&amp;pg=http%3A//samdu.uz&amp;c=Y&amp;j=N&amp;wh=1536x864&amp;px=24&amp;js=1.3&amp;col=0063AF&amp;t=ffffff&amp;p=E6850F"
-                                        width="88" height="31" alt="Топ рейтинг www.uz">
-                                </a>
+                                <a href="http://www.uz/uz/res/visitor/index?id=47159" target=_top><IMG height=31
+                                        src="https://cnt0.www.uz/counter/collect?id=47159&pg=http%3A//uzinfocom.uz&&col=0063AF&amp;t=ffffff&amp;p=DD7900"
+                                        width=88 border=0 alt="Топ рейтинг www.uz"></A></NOSCRIPT>
+                                <!-- FINISH WWW.UZ TOP-RATING -->
                             </div>
                             <div class="visitor-counter">
                                 <!-- Rating Mail.ru logo -->
-                                <a href="https://top.mail.ru/jump?from=3226378">
-                                    <img src="https://top-fwz1.mail.ru/counter?id=3226378;t=433;l=1" style="border:0;"
-                                        height="31" width="88" alt="Top.Mail.Ru" />
-                                </a>
+                                <a href="https://top-fwz1.mail.ru/jump?from=3279096">
+                                    <img src="https://top-fwz1.mail.ru/counter?id=3279096;t=548;l=1" height="40"
+                                        width="88" alt="Top.Mail.Ru" style="border:0;" /></a>
                                 <!-- //Rating Mail.ru logo -->
                             </div>
                             <div class="visitor-counter">
+                                {{-- Unirank counter image --}}
+                                <a href="https://www.4icu.org/" target="_parent"><img
+                                        src="https://www.4icu.org/i/unirank.org-90x45.png" alt="uniRank.org"
+                                        width="90" height="45" border="0"></a>
+                            </div>
+                            <div class="visitor-counter">
+                                <!--LiveInternet counter-->
+                                <a href="https://www.liveinternet.ru/click" target="_blank"><img id="licnt2896"
+                                        width="88" height="31" style="border:0"
+                                        title="LiveInternet: показано число просмотров и посетителей за 24 часа"
+                                        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAEALAAAAAABAAEAAAIBTAA7"
+                                        alt="" /></a>
+                                <script>
+                                    (function(d, s) {
+                                        d.getElementById("licnt2896").src =
+                                            "https://counter.yadro.ru/hit?t52.6;r" + escape(d.referrer) +
+                                            ((typeof(s) == "undefined") ? "" : ";s" + s.width + "*" + s.height + "*" +
+                                                (s.colorDepth ? s.colorDepth : s.pixelDepth)) + ";u" + escape(d.URL) +
+                                            ";h" + escape(d.title.substring(0, 150)) + ";" + Math.random()
+                                    })
+                                    (document, screen)
+                                </script>
+                                <!--/LiveInternet-->
+                            </div>
+
+
+
+                            <div class="visitor-counter">
                                 <!-- Yandex.Metrika informer -->
-                                <a href="https://metrika.yandex.ru/stat/?id=86699138&amp;from=informer"
-                                    target="_blank" rel="nofollow"><img
-                                        src="https://informer.yandex.ru/informer/86699138/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+                                <a href="https://metrika.yandex.ru/stat/?id=93769650&amp;from=informer"
+                                    target="_blank" rel="nofollow">
+                                    <img src="https://informer.yandex.ru/informer/93769650/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
                                         style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
                                         title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)"
-                                        class="ym-advanced-informer" data-cid="86699138" data-lang="ru" /></a>
+                                        class="ym-advanced-informer" data-cid="93769650" data-lang="ru" /></a>
                                 <!-- /Yandex.Metrika informer -->
 
                             </div>
@@ -435,6 +524,7 @@
         </footer>
 
     </div>
+
     <script>
         window.onscroll = function() {
             if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
@@ -458,11 +548,7 @@
         scrollToTopBtn.addEventListener("click", scrollToTop);
     </script>
 
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/91968655" style="position:absolute; left:-9999px;"
-                alt="" /></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
+
 
     <script>
         function removePreLoader() {
