@@ -2,7 +2,7 @@
 
 @section('content')
     <main>
-        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="{{ asset('frontend/js/tailwand.js') }}"></script>
         <!-- Slider start -->
         <div class="slider">
             @foreach ($banners as $banner)
@@ -14,7 +14,7 @@
         font-redHatText">
             <section class="flex flex-col justify-center items-center">
                 <div class="text-xl text-center tracking-[8px] md:text-4xl text-grayishBlue md:tracking-[14px] font-bold">
-                    OTMGA HUJJAT TOPSHIRISHGACHA
+                    SAMDU URGUT FILIALIGA HUJJAT TOPSHIRISHGACHA
                 </div>
                 <!--Time-->
                 <div class="mt-[40px] flex justify-center items-center gap-[40px]">
@@ -36,7 +36,7 @@
                                         <div class="w-[10px] h-[8px] rounded-tl-full bg-veryDarkBlue"></div>
                                     </div>
                                     <span class="translate-y-[46px]" data-card-top>
-                                        09
+                                        00
                                     </span>
                                     <!--FlipTop-->
                                     <span

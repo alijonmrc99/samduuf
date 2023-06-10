@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/style/main.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/style/slick.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/style/dayCounter.css') }}">
-    
+
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
         (function(m, e, t, r, i, k, a) {

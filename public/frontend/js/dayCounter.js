@@ -1,12 +1,13 @@
 /*Declare time*/
-const countToDate = new Date().setDate(new Date("05-20-2023").getDate());
+const countToDate = new Date("06-20-2023");
 
 /*Calculate time from current date compared to the Declared time*/
 setInterval(() => {
   const currentDate = new Date();
   const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000);
   flipAllcard(timeBetweenDates);
-}, 250);
+}, 1000);
+
 
 /*Populate the cards with the data coming from the Declared Time*/
 function flipAllcard(time) {
@@ -14,25 +15,26 @@ function flipAllcard(time) {
   const minutes = Math.floor(time / 60) % 60;
   const hours = Math.floor(time / 3600) % 24;
   const days = Math.floor(time / 86400);
-
+  console.log(days);
   flip(document.querySelector("[data-days]"), days, true);
   flip(document.querySelector("[data-hours]"), hours);
   flip(document.querySelector("[data-minutes]"), minutes);
   flip(document.querySelector("[data-seconds]"), seconds);
 }
 
+
 /*Flip animation function for the cards*/
 function flip(flipcard, newNumber, flag) {
-  const cardTop = flipcard.querySelector("[data-card-top]");
-  const startNumber = cardTop ? parseInt(cardTop.textContent, 10) : 0;
+    const cardTop = flipcard.querySelector("[data-card-top]");
+   let startNumber = cardTop ? parseInt(cardTop.textContent, 10) : 0;
+    const cardBot = flipcard.querySelector("[data-card-bot]"),
+      topFlip = flipcard.querySelector("[data-flip-top]"),
+      botFlip = flipcard.querySelector("[data-flip-bot]"),
+      topFlipNum = flipcard.querySelector("[data-flip-top-num]"),
+      botFlipNum = flipcard.querySelector("[data-flip-bot-num]");
 
-  const cardBot = flipcard.querySelector("[data-card-bot]"),
-    topFlip = flipcard.querySelector("[data-flip-top]"),
-    botFlip = flipcard.querySelector("[data-flip-bot]"),
-    topFlipNum = flipcard.querySelector("[data-flip-top-num]"),
-    botFlipNum = flipcard.querySelector("[data-flip-bot-num]");
-
-  if (newNumber === startNumber) return;
+  if (newNumber === startNumber) return
+  
 
   const displayStartNum = String(startNumber).padStart(2, "0");
 
