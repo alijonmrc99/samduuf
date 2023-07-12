@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\PartnerOrg;
 use App\Models\UsefulSite;
 use App\Models\VideoClip;
 use App\Models\PhotoGallery;
@@ -30,6 +31,7 @@ class SiteController extends Controller
     {
         try {
             $usefulSites = UsefulSite::query()->orderByDesc('order')->get();
+            $partnerOrgs = PartnerOrg::query()->orderByDesc('order')->get();
             $videoClip = VideoClip::query()->where('is_main', true)->first();
             $banners = $this->bannerService->getAll();
             $latestFiveNews = $this->postService->getLatestFiveNews();
@@ -49,7 +51,8 @@ class SiteController extends Controller
             'locale' => $locale,
             'usefulSites' => $usefulSites,
             'videoClip' => $videoClip,
-            'photos' => $photos
+            'photos' => $photos,
+            'partnerOrgs' => $partnerOrgs,
         ]);
     }
 

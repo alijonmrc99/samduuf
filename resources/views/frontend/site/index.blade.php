@@ -56,7 +56,7 @@
                                 </span>
                                 <!--Bottom-->
                                 <span
-                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                 rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow">
                                     <div class="absolute w-full h-full flex justify-start items-start">
                                         <div class="w-[10px] h-[8px] rounded-br-full bg-veryDarkBlue"></div>
@@ -67,7 +67,7 @@
                                     <span class="-translate-y-[45px]" data-card-bot>00</span>
                                     <!--FlipBottom-->
                                     <span
-                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                     rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow"
                                         data-flip-bot>
                                         <div class="absolute w-full h-full flex justify-start items-start">
@@ -120,7 +120,7 @@
                                 </span>
                                 <!--Bottom-->
                                 <span
-                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                 rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow">
                                     <div class="absolute w-full h-full flex justify-start items-start">
                                         <div class="w-[10px] h-[8px] rounded-br-full bg-veryDarkBlue"></div>
@@ -131,7 +131,7 @@
                                     <span class="-translate-y-[45px]" data-card-bot>00</span>
                                     <!--FlipBottom-->
                                     <span
-                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                     rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow"
                                         data-flip-bot>
                                         <div class="absolute w-full h-full flex justify-start items-start">
@@ -184,7 +184,7 @@
                                 </span>
                                 <!--Bottom-->
                                 <span
-                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                 rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow">
                                     <div class="absolute w-full h-full flex justify-start items-start">
                                         <div class="w-[10px] h-[8px] rounded-br-full bg-veryDarkBlue"></div>
@@ -195,7 +195,7 @@
                                     <span class="-translate-y-[45px]" data-card-bot>00</span>
                                     <!--FlipBottom-->
                                     <span
-                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                     rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow"
                                         data-flip-bot>
                                         <div class="absolute w-full h-full flex justify-start items-start">
@@ -247,7 +247,7 @@
                                 </span>
                                 <!--Bottom-->
                                 <span
-                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                    class="relative w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                 rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow">
                                     <div class="absolute w-full h-full flex justify-start items-start">
                                         <div class="w-[10px] h-[8px] rounded-br-full bg-veryDarkBlue"></div>
@@ -258,7 +258,7 @@
                                     <span class="-translate-y-[45px]" data-card-bot>00</span>
                                     <!--FlipBottom-->
                                     <span
-                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden 
+                                        class="absolute w-[180px] h-[90px] bg-darkDesaturatedBlue overflow-hidden
                                     rounded-bl-xl rounded-br-xl flex justify-center items-end text-8xl bottom-flip-shadow"
                                         data-flip-bot>
                                         <div class="absolute w-full h-full flex justify-start items-start">
@@ -507,6 +507,24 @@
                 </div>
             </div>
         </section><!-- Usefull end -->
+
+
+        <!-- Partner Orgs begin -->
+        <section class="bg-gray py-5">
+            <h2 class="text-center mb-4">{{ __('data.useful-sites') }}</h2>
+            <div class="container">
+                <div class="row useful">
+                    @foreach ($partnerOrgs as $partnerOrg)
+                        <div class="col-3 px-2">
+                            <a href="{{ $partnerOrg->url }}">
+                                <img width="100%" src="{{ $partnerOrg->image_path }}" alt="uzedu">
+                                <span class="useful-text p-3">{{ $partnerOrg->{'desc_' . $locale} }}</span>
+                            </a>
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </section><!--  Partner Orgs end -->
     </main>
 
 @endsection

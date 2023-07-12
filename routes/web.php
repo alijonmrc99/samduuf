@@ -149,6 +149,15 @@ Route::group(['prefix' => '/admin', 'middleware' => ['backend.locale', 'route.ac
             Route::delete('/delete/{id}', ['App\Http\Controllers\Backend\UsefulSiteController', 'delete'])->name('useful-site.delete');
         });
 
+        Route::group(['prefix' => '/partner-orgs', 'as' => 'admin.'], function () {
+            Route::get('/', ['App\Http\Controllers\Backend\PartnerOrgController', 'index'])->name('partner-org');
+            Route::get('/create', ['App\Http\Controllers\Backend\PartnerOrgController', 'create'])->name('partner-org.create');
+            Route::post('/store', ['App\Http\Controllers\Backend\PartnerOrgController', 'store'])->name('partner-org.store');
+            Route::get('/edit/{id}', ['App\Http\Controllers\Backend\PartnerOrgController', 'edit'])->name('partner-org.edit');
+            Route::put('/update/{id}', ['App\Http\Controllers\Backend\PartnerOrgController', 'update'])->name('partner-org.update');
+            Route::delete('/delete/{id}', ['App\Http\Controllers\Backend\PartnerOrgController', 'delete'])->name('partner-org.delete');
+        });
+
         Route::group(['prefix' => '/video-clip', 'as' => 'admin.'], function () {
             Route::get('/', ['App\Http\Controllers\Backend\VideoClipController', 'index'])->name('video-clip');
             Route::get('/create', ['App\Http\Controllers\Backend\VideoClipController', 'create'])->name('video-clip.create');

@@ -9,6 +9,7 @@
             <li><a href="{{route('admin.contact')}}"><i class="icofont icofont-contacts"></i> Contact</a></li>
             <li><a href="{{route('admin.useful-site')}}"><i class="icofont icofont-social-slidshare"></i> Useful sites</a></li>
             <li><a href="{{route('admin.video-clip')}}"><i class="icofont icofont-video"></i> Video clips</a></li>
+            <li><a href="{{route('admin.partner-org')}}"><i class="icofont icofont-building"></i> Partner organisations</a></li>
             <li><a href="{{route('admin.photo-galleries.index')}}"><i class="icofont icofont-social-photobucket"></i> Photo gallery</a></li>
             <li><a href="{{route('admin.user.index')}}"><i class="icofont icofont-user"></i> Users</a></li>
             <li><a href="{{route('admin.user.settings')}}"><i class="icofont icofont-user"></i> Settings</a></li>
