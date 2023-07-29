@@ -1,8 +1,8 @@
 @extends('frontend.layouts.main')
 
 @section('content')
-    <main>
-        <script src="{{ asset('frontend/js/tailwand.js') }}"></script>
+<main>
+        {{-- <script src="{{ asset('frontend/js/tailwand.js') }}"></script> --}}
         <!-- Slider start -->
         <div class="slider">
             @foreach ($banners as $banner)
@@ -10,7 +10,7 @@
             @endforeach
         </div><!-- Slider end -->
         <!-- Day counter begin -->
-        <div class="relative  my-5 bg-gradient-to-b from-mostlyBlackBlue to-veryDarkBlue
+        {{-- <div class="relative  my-5 bg-gradient-to-b from-mostlyBlackBlue to-veryDarkBlue
         font-redHatText">
             <section class="flex flex-col justify-center items-center">
                 <div class="text-xl text-center tracking-[8px] md:text-4xl text-grayishBlue md:tracking-[14px] font-bold">
@@ -280,7 +280,7 @@
                 </div>
 
             </section>
-        </div>
+        </div> --}}
         <!-- Day counter end -->
         <!-- quick menu start -->
         @include('frontend.layouts.quick-menu-site')
@@ -528,7 +528,7 @@
     </main>
 
 @endsection
-<script src="{{ asset('frontend/js/dayCounter.js') }}"></script>
+{{-- <script src="{{ asset('frontend/js/dayCounter.js') }}"></script> --}}
 
 
 

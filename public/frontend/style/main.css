@@ -42,7 +42,7 @@ h5 {
 .header {
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    z-index: 5;
+    z-index: 50;
 }
 
 .top {
@@ -245,10 +245,14 @@ h5 {
 .faster-menu .card {
     box-shadow: 0 4px 29px hsla(224, 36%, 42%, 0.16);
     border: none;
-    height: 230px;
+    height: 260px;
     overflow: hidden;
     position: relative;
     z-index: 1;
+}
+
+.faster-menu .slick-list {
+    overflow: clip !important;
 }
 
 .faster-menu .card-icon {
@@ -301,7 +305,8 @@ h5 {
 
 .news .card {
     box-shadow: 3px 2px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 0 !important;
+    border-radius: 10px;
+    overflow: hidden;
     border: none;
     --bs-card-border-radius: 0;
     --bs-card-inner-border-radius: 0;
@@ -397,10 +402,11 @@ h5 {
 
 .statistics {
     position: relative;
-    z-index: 15;
+    z-index: 10;
 }
 
 .statistics .row .p-4 {
+    border-radius: 10px;
     background-color: #fff;
     box-shadow: -10px -5px 40px rgba(0, 0, 0, 0.1);
     min-height: 200px;
@@ -686,6 +692,15 @@ h5 {
     position: relative;
     background-color: #fff;
     display: block;
+    height: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.useful a img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .useful .useful-text {
@@ -695,6 +710,10 @@ h5 {
     font-weight: 700;
     text-shadow: 1px 0 10px rgba(0, 0, 0, 0.5);
     color: #fff;
+    position: absolute;
+    bottom: 0;
+    min-height: 80px;
+    width: 100%;
 }
 
 /* Footer section styles
@@ -1471,7 +1490,7 @@ form.container input[type="submit"] {
 
 .news {
     display: block;
-    height: 650px !important;
+    /* height: 650px !important; */
 }
 
 .useful {
@@ -1481,4 +1500,83 @@ form.container input[type="submit"] {
 section h2 {
     font-size: 40px;
     font-weight: 700;
+}
+
+/*  Search in menu styles */
+
+
+.search,
+.search1 {
+    position: relative;
+    width: 3rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    transition: width 0.5s;
+}
+
+.search-active {
+    width: 300px;
+}
+
+.search-bar,
+.search-bar1 {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border: 0.125rem solid #011d4b;
+    border-radius: 2rem;
+    outline: none;
+    font: 1rem helvetica, sans-serif;
+    letter-spacing: 0.05rem;
+    padding-left: 2rem;
+}
+
+::-webkit-search-cancel-button {
+    position: absolute;
+    right: 4.5rem;
+    filter: grayscale(100%) invert(20%);
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.search-btn,
+.search-btn1 {
+    position: absolute;
+    right: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: #011d4b;
+    border: 0.1rem solid #011d4b;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.search-icon {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.search-glass {
+    opacity: 1;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.search-active .search-glass {
+    opacity: 0;
+    transform: rotate(360deg);
+}
+
+.search-close {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.search-active .search-close {
+    opacity: 1;
+    transform: rotate(360deg);
 }

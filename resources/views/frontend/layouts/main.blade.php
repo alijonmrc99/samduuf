@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/style/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/style/main.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/style/slick.css') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/style/dayCounter.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('frontend/style/dayCounter.css') }}"> --}}
 
     <!-- Yandex.Metrika counter -->
     <script type="text/javascript">
@@ -73,8 +73,8 @@
                 alt="Top.Mail.Ru" /></div>
     </noscript>
     <!-- /Top.Mail.Ru counter -->
-
-
+   
+       
 </head>
 
 
@@ -275,8 +275,18 @@
                                             href="{{ $menu['children'] ? '#' : $menu['link'] }}">{{ $menu['title'] }}</a>
                                     @endif
                                 </li>
-
-                            @endforeach
+                                
+                                @endforeach
+                                <li class="mb-2 ms-3">
+                                    <form class='search' action='https://www.google.com/search' method='get' target='_blank'>
+                                        <input class='search-bar' type='search' name='q'>
+                                        <input type="hidden" name="sitesearch" value="samduuf.uz">
+                                        <button class='search-btn' type='button'>
+                                          <ion-icon class='search-icon search-glass' name="search-outline"></ion-icon>
+                                          <ion-icon class='search-icon search-close' name="close-outline"></ion-icon>
+                                        </button>
+                                      </form>
+                                </li>
                         </ul>
                     </div>
                 </div>
@@ -354,6 +364,17 @@
                                 </li>
 
                             @endforeach
+                           
+                            <li class="mb-2 ms-3">
+                                <form class='search1' action='https://www.google.com/search?site:samduuf.uz' method='get' target='_blank'>
+                                    <input class='search-bar1' type='search' name='q'>
+                                    <input type="hidden" name="sitesearch" value="samduuf.uz">
+                                    <button class='search-btn1' type='button'>
+                                      <ion-icon class='search-icon search-glass' name="search-outline"></ion-icon>
+                                      <ion-icon class='search-icon search-close' name="close-outline"></ion-icon>
+                                    </button>
+                                  </form>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -466,11 +487,40 @@
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12">
                         <div class="counters">
-                            <div class="visitor-counter">
-                                <a href="http://www.uz/uz/res/visitor/index?id=47159" target=_top><IMG height=31
-                                        src="https://cnt0.www.uz/counter/collect?id=47159&pg=http%3A//uzinfocom.uz&&col=0063AF&amp;t=ffffff&amp;p=DD7900"
-                                        width=88 border=0 alt="Топ рейтинг www.uz"></A></NOSCRIPT>
-                                <!-- FINISH WWW.UZ TOP-RATING -->
+                            <div class="visitor-counter www-uz">
+                                 <!-- START WWW.UZ TOP-RATING -->
+                                <SCRIPT language="javascript" type="text/javascript">
+                                    <!--
+                                    top_js="1.0";top_r="id=47159&r="+escape(document.referrer)+"&pg="+escape(window.location.href);document.cookie="smart_top=1; path=/"; top_r+="&c="+(document.cookie?"Y":"N")
+                                    //-->
+                                    </SCRIPT>
+                                    <SCRIPT language="javascript1.1" type="text/javascript">
+                                    <!--
+                                    top_js="1.1";top_r+="&j="+(navigator.javaEnabled()?"Y":"N")
+                                    //-->
+                                    </SCRIPT>
+                                    <SCRIPT language="javascript1.2" type="text/javascript">
+                                    <!--
+                                    top_js="1.2";top_r+="&wh="+screen.width+'x'+screen.height+"&px="+
+                                    (((navigator.appName.substring(0,3)=="Mic"))?screen.colorDepth:screen.pixelDepth)
+                                    //-->
+                                    </SCRIPT>
+                                    <SCRIPT language="javascript1.3" type="text/javascript">
+                                    <!--
+                                    top_js="1.3";
+                                    //-->
+                                    </SCRIPT>
+                                    <SCRIPT language="JavaScript" type="text/javascript">
+                                   
+                                    top_rat="&col=0063AF&t=ffffff&p=DD7900";top_r+="&js="+top_js+"";
+                                    const conta = document.querySelector(".www-uz")
+                                    conta.innerHTML ='<a href="http://www.uz/uz/res/visitor/index?id=47159" target=_top><img src="https://cnt0.www.uz/counter/collect?'+top_r+top_rat+'" width=88 height=31 border=0 alt="Топ рейтинг www.uz"></a>'
+                                    </SCRIPT>
+                                    {{-- <A href="http://www.uz/uz/res/visitor/index?id=47159" target=_top><IMG height=31 src="https://cnt0.www.uz/counter/collect?id=47159&pg=http%3A//uzinfocom.uz&&col=0063AF&amp;t=ffffff&amp;p=DD7900" width=88 border=0 alt="Топ рейтинг www.uz"></A> --}}
+                                        
+                                <!-- FINISH WWW.UZ TOP-RATING --> 
+                                        
+                               
                             </div>
                             <div class="visitor-counter">
                                 <!-- Rating Mail.ru logo -->
@@ -526,6 +576,8 @@
 
     </div>
 
+   
+
     <script>
         window.onscroll = function() {
             if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
@@ -565,6 +617,8 @@
     <script src="{{ asset('frontend/js/jquery.waypoints.min.js') }}"></script>
     <script src="{{ asset('frontend/js/counterUp.js') }}"></script>
     <script src="{{ asset('frontend/js/app.js') }}"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     @yield('scripts')
 

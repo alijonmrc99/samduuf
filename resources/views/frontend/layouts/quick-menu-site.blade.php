@@ -1,9 +1,8 @@
 <div class="container faster-menu py-5">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="mx-4">
                 <a href="https://hemis.samduuf.uz/dashboard/login">
                     <div class="card">
-
                         <div class="card-body">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <!-- Unversity icon -->
@@ -20,10 +19,10 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3">
+           
+            <div class="mx-4">
                 <a href="https://student.samduuf.uz/dashboard/login">
                     <div class="card">
-
                         <div class="card-body">
                             <div class="card-icon d-flex justify-content-center align-items-center">
                                 <!-- Unversity icon -->
@@ -40,7 +39,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3">
+            <div class="mx-4">
                 <a href="https://t.me/SamDU_Urgut_filiali">
                     <div class="card">
                         <div class="card-body">
@@ -62,7 +61,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-lg-3">
+            <div class="mx-4">
                 <a href="https://schedule.samduuf.uz/">
                     <div class="card">
                         <div class="card-body">
@@ -77,6 +76,47 @@
                             </div>
                             <h5 class="card-title mt-3">{{__('data.quick-menu.schedule')}}</h5>
                             <p class="card-text">{{__('data.quick-menu.schedule-desc')}}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mx-4">
+                <a href="https://hemis.uz">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <!-- Unversity icon -->
+                                <svg class="path" width="44" height="44" viewBox="0 0 44 44" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M42.625 11V12.375C42.625 12.5574 42.5526 12.7322 42.4236 12.8612C42.2947 12.9901 42.1198 13.0625 41.9375 13.0625H39.875V14.0938C39.875 14.6633 39.4133 15.125 38.8438 15.125H5.15625C4.58674 15.125 4.125 14.6633 4.125 14.0938V13.0625H2.0625C1.88016 13.0625 1.7053 12.9901 1.57636 12.8612C1.44743 12.7322 1.375 12.5574 1.375 12.375V11C1.375 10.864 1.41535 10.7311 1.49093 10.618C1.56651 10.5049 1.67394 10.4168 1.79962 10.3648L21.7371 2.80227C21.9054 2.73258 22.0946 2.73258 22.2629 2.80227L42.2004 10.3648C42.3261 10.4168 42.4335 10.5049 42.5091 10.618C42.5847 10.7311 42.625 10.864 42.625 11V11ZM40.5625 37.125H3.4375C2.2984 37.125 1.375 38.0484 1.375 39.1875V40.5625C1.375 40.7449 1.44743 40.9197 1.57636 41.0487C1.7053 41.1776 1.88016 41.25 2.0625 41.25H41.9375C42.1198 41.25 42.2947 41.1776 42.4236 41.0487C42.5526 40.9197 42.625 40.7449 42.625 40.5625V39.1875C42.625 38.0484 41.7016 37.125 40.5625 37.125ZM8.25 16.5V33H5.15625C4.58674 33 4.125 33.4618 4.125 34.0313V35.75H39.875V34.0313C39.875 33.4618 39.4133 33 38.8438 33H35.75V16.5H30.25V33H24.75V16.5H19.25V33H13.75V16.5H8.25Z"
+                                        fill="#fff" />
+                                </svg>
+                            </div>
+                            <h5 class="card-title mt-3">{{__('data.quick-menu.hemis')}}</h5>
+                            <p class="card-text">{{__('data.quick-menu.hemis_desc')}}</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="mx-4">
+                <a href="https://unilibrary.uz/">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-icon d-flex justify-content-center align-items-center">
+                                <!-- book icon -->
+                                <svg class="library" width="40" height="35" viewBox="0 0 40 35" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M31.0433 27.1695L31.2725 27.7637L31.9909 29.5918L32.0674 29.7746L32.8469 31.7703C32.8622 31.8312 32.9386 31.8617 32.9845 31.8312L37.2643 30.1707C37.3255 30.1555 37.356 30.0793 37.3255 30.0336L36.6682 28.3578L36.5612 28.0683L29.4383 9.89374L28.1391 6.57265L27.5735 5.12538C27.5582 5.06444 27.4818 5.03397 27.436 5.06444L23.1561 6.72499C23.095 6.74022 23.0644 6.8164 23.095 6.8621L31.0433 27.1695Z"
+                                        fill="white" />
+                                    <path
+                                        d="M22.881 31.8769L26.1979 31.4047C26.259 31.3894 26.3048 31.3437 26.2896 31.2828L22.1014 2.32224C22.0861 2.2613 22.0403 2.2156 21.9791 2.23084L17.4395 2.88591C17.3783 2.90115 17.3325 2.94685 17.3477 3.00779L21.5206 31.8769H17.3477V2.39841H11.9979V31.8769L11.1878 31.8617V0.631226L3.57582 0.64646V25.7527V31.8617H0.258942V34.741H39.2667V31.8617H22.881V31.8769ZM5.07377 14.4031H9.6746V22.5078H5.07377V14.4031ZM4.47764 25.7679H10.2707V27.7484H4.47764V25.7679ZM16.5071 27.1543H12.8233V26.3621H16.5071V27.1543ZM16.5071 29.1957V29.7898H12.8233V29.1957H16.5071ZM16.5071 4.2113V8.1113H12.8233V4.2113H16.5071Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <h5 class="card-title mt-3">{{__('data.quick-menu.unilibrary')}}</h5>
+                            <p class="card-text">{{__('data.quick-menu.unilibrary_desc')}}</p>
                         </div>
                     </div>
                 </a>

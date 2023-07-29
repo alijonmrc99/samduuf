@@ -23,7 +23,11 @@ return [
     ],
     'quick-menu' => [
         'hemis_otm' => 'Hemis OTM',
+        'hemis' => 'Hemis.uz',
+        'unilibrary' => "Unilibrary",
+        'unilibrary_desc' => "Yagona elektron kutubxona axborot tizimi",
         'hemis_otm-desc' => 'SamDU Urgut filiali talabari o’qituvchlari va Xodimlari uchun oliy taʼlim jarayonlarini boshqarish axborot tizimi',
+        'hemis_desc' => 'Ushbu axborot tizimi “Ma’muriy boshqaruv”, “O‘quv jarayoni”, “Ilmiy faoliyat” va “Moliyaviy boshqaruv” modullarini o‘z ichiga olgan.',
         'hemis_student' => 'Hemis student',
         'hemis_student-desc' => 'SamDU Urgut filiali talabari uchun oliy taʼlim jarayonlariniboshqarish axborot tizimi',
         'elibrary' => 'Elektron kutubxona',
