@@ -40,7 +40,7 @@
                 </a>
             </div>
             <div class="mx-4">
-                <a href="https://t.me/SamDU_Urgut_filiali">
+                <a href="https://kutubxona.samduuf.uz">
                     <div class="card">
                         <div class="card-body">
                             <div class="card-icon d-flex justify-content-center align-items-center">

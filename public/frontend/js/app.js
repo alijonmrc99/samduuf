@@ -8,6 +8,7 @@ $(".slider").slick({
     dots: true,
     arrows: true,
 });
+
 $(".faster-menu .row").slick({
     autoplay: true,
     infinite: true,
@@ -16,7 +17,26 @@ $(".faster-menu .row").slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        //     {
+        //     breakpoint: 50000,
+        //     settings: {
+        //         slidesToShow: 3
+        //     }
+        // },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }]
 });
+
 // .on("beforeChange", function (event, slick, currentSlide, nextSlide) {
 //     $(".slider .slick-slide").eq(nextSlide).addClass("animate-active");
 // })

@@ -306,7 +306,7 @@
                                         <p class="card-text">{{ $latestFiveNew->{'short_content_' . $locale} }}</p>
                                         <div class="d-flex justify-content-center">
                                             <a href="/post/{{ $latestFiveNew->slug }}"
-                                                class="card-link col-6 text-center te py-2 ">Batafsil</a>
+                                                class="card-link col-6 text-center te py-2 ">{{ __('data.read-more') }}...</a>
                                         </div>
                                     </div>
                                 </div>
