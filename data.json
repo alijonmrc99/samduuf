@@ -1,0 +1,2921 @@
+[
+    {
+        "name": "14-(Ekologiya laboratoriyas)i",
+        "building": "1-son TTJ",
+        "room_type": "Laboratoriya",
+        "capacity": 26,
+        "room_id": 524
+    },
+    {
+        "name": "17-(Ekologiya laboratoriyas)i",
+        "building": "1-son TTJ",
+        "room_type": "Laboratoriya",
+        "capacity": 26,
+        "room_id": 525
+    },
+    {
+        "name": "MFI-62",
+        "building": "1-son TTJ",
+        "room_type": "Boshqa",
+        "capacity": 120,
+        "room_id": 920
+    },
+    {
+        "name": "Agro_1",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 710
+    },
+    {
+        "name": "Agro_10",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 719
+    },
+    {
+        "name": "Agro_11",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 721
+    },
+    {
+        "name": "Agro_12",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 742
+    },
+    {
+        "name": "Agro_12",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 722
+    },
+    {
+        "name": "Agro_2",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 711
+    },
+    {
+        "name": "Agro_20",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 723
+    },
+    {
+        "name": "Agro_21",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 724
+    },
+    {
+        "name": "Agro_22",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 725
+    },
+    {
+        "name": "Agro_23",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 726
+    },
+    {
+        "name": "Agro_24",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 727
+    },
+    {
+        "name": "Agro_25",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Ma'ruza",
+        "capacity": 50,
+        "room_id": 728
+    },
+    {
+        "name": "Agro_26",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 729
+    },
+    {
+        "name": "Agro_27 kompyuter sinfi",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Seminar",
+        "capacity": 22,
+        "room_id": 730
+    },
+    {
+        "name": "Agro_28 kompyuter sinfi",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 15,
+        "room_id": 731
+    },
+    {
+        "name": "Agro_3",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 712
+    },
+    {
+        "name": "Agro_30",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 733
+    },
+    {
+        "name": "Agro_31",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 734
+    },
+    {
+        "name": "Agro_32",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 25,
+        "room_id": 743
+    },
+    {
+        "name": "Agro_33",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 26,
+        "room_id": 744
+    },
+    {
+        "name": "Agro_34",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 25,
+        "room_id": 911
+    },
+    {
+        "name": "Agro_35",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 25,
+        "room_id": 913
+    },
+    {
+        "name": "Agro_36",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 912
+    },
+    {
+        "name": "Agro_37",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 732
+    },
+    {
+        "name": "Agro_38",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 737
+    },
+    {
+        "name": "Agro_39",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 932
+    },
+    {
+        "name": "Agro_4",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 713
+    },
+    {
+        "name": "Agro_40",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 933
+    },
+    {
+        "name": "Agro_41",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 934
+    },
+    {
+        "name": "Agro_42",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 935
+    },
+    {
+        "name": "Agro_43",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 936
+    },
+    {
+        "name": "Agro_5",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 714
+    },
+    {
+        "name": "Agro_6",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 715
+    },
+    {
+        "name": "Agro_7",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 26,
+        "room_id": 716
+    },
+    {
+        "name": "Agro_8",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 717
+    },
+    {
+        "name": "Agro_9",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 718
+    },
+    {
+        "name": "Agro_Faollar zali",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 735
+    },
+    {
+        "name": "Agro_L(B)",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 736
+    },
+    {
+        "name": "Jomboy MTP",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 60,
+        "room_id": 739
+    },
+    {
+        "name": "Jomboy biolabaratoriya",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Laboratoriya",
+        "capacity": 60,
+        "room_id": 738
+    },
+    {
+        "name": "Jomboy transport kolleji",
+        "building": "Agrobiotexnologiya va oziq-ovqat hafsizligi instituti",
+        "room_type": "Amaliyot",
+        "capacity": 60,
+        "room_id": 745
+    },
+    {
+        "name": "Bio-102",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 74
+    },
+    {
+        "name": "Bio-105",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 16,
+        "room_id": 75
+    },
+    {
+        "name": "Bio-106",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 36,
+        "room_id": 76
+    },
+    {
+        "name": "Bio-107",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 897
+    },
+    {
+        "name": "Bio-110",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 709
+    },
+    {
+        "name": "Bio-111",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 77
+    },
+    {
+        "name": "Bio-112",
+        "building": "Biologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 71
+    },
+    {
+        "name": "Bio-113",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 78
+    },
+    {
+        "name": "Bio-202",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 28,
+        "room_id": 79
+    },
+    {
+        "name": "Bio-204",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 18,
+        "room_id": 80
+    },
+    {
+        "name": "Bio-205",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 81
+    },
+    {
+        "name": "Bio-206",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 82
+    },
+    {
+        "name": "Bio-207",
+        "building": "Biologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 72
+    },
+    {
+        "name": "Bio-209",
+        "building": "Biologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 40,
+        "room_id": 83
+    },
+    {
+        "name": "Bio-210",
+        "building": "Biologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 44,
+        "room_id": 220
+    },
+    {
+        "name": "Bio-211",
+        "building": "Biologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 73
+    },
+    {
+        "name": "Bio-213",
+        "building": "Biologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 42,
+        "room_id": 221
+    },
+    {
+        "name": "Bio-214",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 222
+    },
+    {
+        "name": "Bio-217",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 86
+    },
+    {
+        "name": "Bio-vivariy 12",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 84
+    },
+    {
+        "name": "Bio-vivariy 12",
+        "building": "Biologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 16,
+        "room_id": 219
+    },
+    {
+        "name": "Bio-vivariy 12",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 691
+    },
+    {
+        "name": "Bio-vivariy 22",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 87
+    },
+    {
+        "name": "Bio-vivariy-12",
+        "building": "Biologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 16,
+        "room_id": 898
+    },
+    {
+        "name": "Geo -15 (muz)",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 16,
+        "room_id": 470
+    },
+    {
+        "name": "Geo-1",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 62
+    },
+    {
+        "name": "Geo-10",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 56,
+        "room_id": 60
+    },
+    {
+        "name": "Geo-16",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 18,
+        "room_id": 68
+    },
+    {
+        "name": "Geo-17",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 42,
+        "room_id": 69
+    },
+    {
+        "name": "Geo-19A",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 70
+    },
+    {
+        "name": "Geo-19B",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 12,
+        "room_id": 814
+    },
+    {
+        "name": "Geo-24",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 61
+    },
+    {
+        "name": "Geo-3",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 18,
+        "room_id": 63
+    },
+    {
+        "name": "Geo-6 gis markazi",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 64
+    },
+    {
+        "name": "Geo-7",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 65
+    },
+    {
+        "name": "Geo-7A",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 8,
+        "room_id": 469
+    },
+    {
+        "name": "Geo-8",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 66
+    },
+    {
+        "name": "Geo-9",
+        "building": "Geografiya va ekologiya fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 42,
+        "room_id": 67
+    },
+    {
+        "name": "IRB 102",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 460
+    },
+    {
+        "name": "IRB 103",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 461
+    },
+    {
+        "name": "IRB 104",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 399
+    },
+    {
+        "name": "IRB 105",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 394
+    },
+    {
+        "name": "IRB 110",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 389
+    },
+    {
+        "name": "IRB Maruzalar zali",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 120,
+        "room_id": 398
+    },
+    {
+        "name": "Inyaz 2",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 12,
+        "room_id": 388
+    },
+    {
+        "name": "Inyaz 3",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 12,
+        "room_id": 392
+    },
+    {
+        "name": "Inyaz 4",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Seminar",
+        "capacity": 12,
+        "room_id": 390
+    },
+    {
+        "name": "Inyaz Zal (kutbxona)",
+        "building": "Inson resurslarini boshqarish fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 40,
+        "room_id": 397
+    },
+    {
+        "name": "IT va KT-115",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 46,
+        "room_id": 489
+    },
+    {
+        "name": "IT va KT-118",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 56,
+        "room_id": 490
+    },
+    {
+        "name": "IT va KT-213 Komp xona",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 491
+    },
+    {
+        "name": "IT va KT-215 Komp xona",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 492
+    },
+    {
+        "name": "IT va KT-216 Komp xona",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 493
+    },
+    {
+        "name": "IT va KT-217 Komp xona",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 494
+    },
+    {
+        "name": "IT va KT-220",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 44,
+        "room_id": 495
+    },
+    {
+        "name": "IT va KT-313",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 52,
+        "room_id": 496
+    },
+    {
+        "name": "IT va KT-314",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 497
+    },
+    {
+        "name": "IT va KT-315",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 36,
+        "room_id": 498
+    },
+    {
+        "name": "IT va KT-316",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 499
+    },
+    {
+        "name": "IT va KT-317",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 42,
+        "room_id": 500
+    },
+    {
+        "name": "IT va KT-318",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 56,
+        "room_id": 501
+    },
+    {
+        "name": "Yuridik-202",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Seminar",
+        "capacity": 40,
+        "room_id": 502
+    },
+    {
+        "name": "Yuridik-203",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Seminar",
+        "capacity": 40,
+        "room_id": 503
+    },
+    {
+        "name": "Yuridik-205",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Seminar",
+        "capacity": 48,
+        "room_id": 504
+    },
+    {
+        "name": "Yuridik-206",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 505
+    },
+    {
+        "name": "Yuridik-208",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 32
+    },
+    {
+        "name": "Yuridik-301",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 33
+    },
+    {
+        "name": "Yuridik-303",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 72,
+        "room_id": 34
+    },
+    {
+        "name": "Yuridik-304",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 35
+    },
+    {
+        "name": "Yuridik-305",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 46,
+        "room_id": 36
+    },
+    {
+        "name": "Yuridik-306",
+        "building": "Intellektual tizimlar va kompyuter texnologiyalari va Yuridik fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 92,
+        "room_id": 37
+    },
+    {
+        "name": "KIM_102",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 120
+    },
+    {
+        "name": "KIM_103",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 150
+    },
+    {
+        "name": "KIM_104",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 148
+    },
+    {
+        "name": "KIM_105",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 151
+    },
+    {
+        "name": "KIM_106",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 149
+    },
+    {
+        "name": "KIM_111",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 40,
+        "room_id": 152
+    },
+    {
+        "name": "KIM_114",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 40,
+        "room_id": 153
+    },
+    {
+        "name": "KIM_116",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 383
+    },
+    {
+        "name": "KIM_117",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 154
+    },
+    {
+        "name": "KIM_118",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 25,
+        "room_id": 155
+    },
+    {
+        "name": "KIM_12",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 122
+    },
+    {
+        "name": "KIM_120 kompyuter sinfi",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 25,
+        "room_id": 156
+    },
+    {
+        "name": "KIM_14",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 10,
+        "room_id": 123
+    },
+    {
+        "name": "KIM_15",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 440
+    },
+    {
+        "name": "KIM_16",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 861
+    },
+    {
+        "name": "KIM_17",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 147
+    },
+    {
+        "name": "KIM_20",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 382
+    },
+    {
+        "name": "KIM_202",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 24,
+        "room_id": 167
+    },
+    {
+        "name": "KIM_204",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 158
+    },
+    {
+        "name": "KIM_205",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 36,
+        "room_id": 159
+    },
+    {
+        "name": "KIM_207",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 161
+    },
+    {
+        "name": "KIM_211",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 160
+    },
+    {
+        "name": "KIM_212",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 60,
+        "room_id": 157
+    },
+    {
+        "name": "KIM_213",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 162
+    },
+    {
+        "name": "KIM_214",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 688
+    },
+    {
+        "name": "KIM_215",
+        "building": "Kimyo fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 871
+    },
+    {
+        "name": "KIM_217",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 164
+    },
+    {
+        "name": "KIM_218",
+        "building": "Kimyo fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 28,
+        "room_id": 174
+    },
+    {
+        "name": "KIM_6",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 566
+    },
+    {
+        "name": "KIM_7",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 438
+    },
+    {
+        "name": "KIM_8",
+        "building": "Kimyo fakulteti",
+        "room_type": "Laboratoriya",
+        "capacity": 15,
+        "room_id": 437
+    },
+    {
+        "name": "M va BT-3/101",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 787
+    },
+    {
+        "name": "M va BT-3/102",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 870
+    },
+    {
+        "name": "M va BT-3/201",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 788
+    },
+    {
+        "name": "M va BT-3/202",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 789
+    },
+    {
+        "name": "M va BT-3/301",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 790
+    },
+    {
+        "name": "M va BT-3/302",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 791
+    },
+    {
+        "name": "M va BT-3/303",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 793
+    },
+    {
+        "name": "M va BT-3/304",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 28,
+        "room_id": 792
+    },
+    {
+        "name": "M va BT-Ma'ruza zali",
+        "building": "Maktabgacha va boshlang'ich ta'lim fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 200,
+        "room_id": 764
+    },
+    {
+        "name": "MAT-311",
+        "building": "Matematika fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 2
+    },
+    {
+        "name": "MAT-312",
+        "building": "Matematika fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 1
+    },
+    {
+        "name": "MAT-203",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 55
+    },
+    {
+        "name": "MAT-205",
+        "building": "Matematika fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 128,
+        "room_id": 44
+    },
+    {
+        "name": "MAT-208",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 58
+    },
+    {
+        "name": "MAT-209",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 59
+    },
+    {
+        "name": "MAT-302(kompyuter xona)",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 5
+    },
+    {
+        "name": "MAT-304",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 47
+    },
+    {
+        "name": "MAT-305",
+        "building": "Matematika fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 7
+    },
+    {
+        "name": "MAT-308",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 46
+    },
+    {
+        "name": "MAT-314",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 3
+    },
+    {
+        "name": "MAT-315",
+        "building": "Matematika fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 4
+    },
+    {
+        "name": "MFI-115",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 50,
+        "room_id": 926
+    },
+    {
+        "name": "MFI-116",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 100,
+        "room_id": 925
+    },
+    {
+        "name": "MFI-117",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 190,
+        "room_id": 919
+    },
+    {
+        "name": "MFI-214",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 258
+    },
+    {
+        "name": "MFI-215",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 255
+    },
+    {
+        "name": "MFI-216",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 358
+    },
+    {
+        "name": "MFI-228",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 927
+    },
+    {
+        "name": "MFI-229",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 928
+    },
+    {
+        "name": "MFI-230",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 929
+    },
+    {
+        "name": "MFI-231",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 930
+    },
+    {
+        "name": "MFI-232",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 34,
+        "room_id": 931
+    },
+    {
+        "name": "MFI_207",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 22,
+        "room_id": 246
+    },
+    {
+        "name": "MFI_208",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 252
+    },
+    {
+        "name": "MFI_209",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 245
+    },
+    {
+        "name": "MFI_210",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 251
+    },
+    {
+        "name": "MFI_211",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 70,
+        "room_id": 330
+    },
+    {
+        "name": "MFI_301",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 84,
+        "room_id": 356
+    },
+    {
+        "name": "MFI_304",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 18,
+        "room_id": 342
+    },
+    {
+        "name": "MFI_305",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 18,
+        "room_id": 347
+    },
+    {
+        "name": "MFI_306",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 14,
+        "room_id": 349
+    },
+    {
+        "name": "MFI_307",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 18,
+        "room_id": 345
+    },
+    {
+        "name": "MFI_308",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 24,
+        "room_id": 346
+    },
+    {
+        "name": "MFI_309",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 24,
+        "room_id": 348
+    },
+    {
+        "name": "MFI_310",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Seminar",
+        "capacity": 16,
+        "room_id": 328
+    },
+    {
+        "name": "MFI_311 kompyuter sinfi",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 244
+    },
+    {
+        "name": "MFI_403",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 667
+    },
+    {
+        "name": "MFI_404",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 815
+    },
+    {
+        "name": "MFI_405",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 257
+    },
+    {
+        "name": "MFI_409",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 384
+    },
+    {
+        "name": "MFI_410",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 344
+    },
+    {
+        "name": "MFI_411",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 331
+    },
+    {
+        "name": "MFI_412",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 323
+    },
+    {
+        "name": "MFI_414",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 30,
+        "room_id": 322
+    },
+    {
+        "name": "MFI_415",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 20,
+        "room_id": 329
+    },
+    {
+        "name": "MFI_416",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Laboratoriya",
+        "capacity": 35,
+        "room_id": 332
+    },
+    {
+        "name": "YFL_102",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Boshqa",
+        "capacity": 60,
+        "room_id": 669
+    },
+    {
+        "name": "YFL_108",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Boshqa",
+        "capacity": 18,
+        "room_id": 668
+    },
+    {
+        "name": "YFL_207",
+        "building": "Muhandislik fizikasi inistituti",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 327
+    },
+    {
+        "name": "Psi-226",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 12,
+        "room_id": 699
+    },
+    {
+        "name": "Psi-301",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 16,
+        "room_id": 700
+    },
+    {
+        "name": "Psi-302",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 701
+    },
+    {
+        "name": "Psi-303",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 16,
+        "room_id": 696
+    },
+    {
+        "name": "Psi-304",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 179
+    },
+    {
+        "name": "Psi-305",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 16,
+        "room_id": 180
+    },
+    {
+        "name": "Psi-307",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 40,
+        "room_id": 182
+    },
+    {
+        "name": "Psi-310",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 183
+    },
+    {
+        "name": "Psi-312",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 184
+    },
+    {
+        "name": "Psi-204",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 903
+    },
+    {
+        "name": "Psi-206",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 697
+    },
+    {
+        "name": "Psi-208",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 702
+    },
+    {
+        "name": "Psi-209",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 703
+    },
+    {
+        "name": "Psi-210",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 704
+    },
+    {
+        "name": "Psi-211",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 60,
+        "room_id": 705
+    },
+    {
+        "name": "Psi-212",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 60,
+        "room_id": 706
+    },
+    {
+        "name": "Psi-213",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 34,
+        "room_id": 698
+    },
+    {
+        "name": "Psi-220",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 60,
+        "room_id": 707
+    },
+    {
+        "name": "Psi-306",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 181
+    },
+    {
+        "name": "Psi-202",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 672
+    },
+    {
+        "name": "Psi-224",
+        "building": "Psixologiya va ijtimoiy-siyosiy fanlar fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 708
+    },
+    {
+        "name": "Arxelogiya-30",
+        "building": "Samarqand arxeologiya instituti",
+        "room_type": "Amaliyot",
+        "capacity": 40,
+        "room_id": 855
+    },
+    {
+        "name": "Arxelogiya-34",
+        "building": "Samarqand arxeologiya instituti",
+        "room_type": "Amaliyot",
+        "capacity": 40,
+        "room_id": 856
+    },
+    {
+        "name": "Arxelogiya-36",
+        "building": "Samarqand arxeologiya instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 857
+    },
+    {
+        "name": "Arxelogiya-8",
+        "building": "Samarqand arxeologiya instituti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 854
+    },
+    {
+        "name": "Tab va tar muzey-1",
+        "building": "Samarqand viloyati tabiati va tarixi muzeyi",
+        "room_type": "Amaliyot",
+        "capacity": 100,
+        "room_id": 858
+    },
+    {
+        "name": "Gul-1",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 150,
+        "room_id": 604
+    },
+    {
+        "name": "Gul-101",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 595
+    },
+    {
+        "name": "Gul-102",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 596
+    },
+    {
+        "name": "Gul-103",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 90,
+        "room_id": 597
+    },
+    {
+        "name": "Gul-104",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 90,
+        "room_id": 598
+    },
+    {
+        "name": "Gul-106",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 600
+    },
+    {
+        "name": "Gul-109",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 876
+    },
+    {
+        "name": "Gul-110",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 90,
+        "room_id": 607
+    },
+    {
+        "name": "Gul-201",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 606
+    },
+    {
+        "name": "Gul-202",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 877
+    },
+    {
+        "name": "Gul-203",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 608
+    },
+    {
+        "name": "Gul-204",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 599
+    },
+    {
+        "name": "Gul-205",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 80,
+        "room_id": 601
+    },
+    {
+        "name": "Gul-206",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 879
+    },
+    {
+        "name": "Gul-207",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 602
+    },
+    {
+        "name": "Gul-208",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 594
+    },
+    {
+        "name": "Gul-301",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 849
+    },
+    {
+        "name": "Gul-302",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 850
+    },
+    {
+        "name": "Gul-303",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 851
+    },
+    {
+        "name": "Gul-304",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 852
+    },
+    {
+        "name": "Gul-305",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 671
+    },
+    {
+        "name": "Gul-306",
+        "building": "Sirtqi ta'lim bo'lim eski Gulobod kolleji",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 878
+    },
+    {
+        "name": "sirtqi-1",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 120,
+        "room_id": 620
+    },
+    {
+        "name": "sirtqi-101",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 196
+    },
+    {
+        "name": "sirtqi-102",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 189
+    },
+    {
+        "name": "sirtqi-103",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 573
+    },
+    {
+        "name": "sirtqi-104",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 108,
+        "room_id": 477
+    },
+    {
+        "name": "sirtqi-106",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 478
+    },
+    {
+        "name": "sirtqi-107",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 479
+    },
+    {
+        "name": "sirtqi-108",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 937
+    },
+    {
+        "name": "sirtqi-110",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 48,
+        "room_id": 480
+    },
+    {
+        "name": "sirtqi-111",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 44,
+        "room_id": 481
+    },
+    {
+        "name": "sirtqi-113",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 44,
+        "room_id": 482
+    },
+    {
+        "name": "sirtqi-115",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 64,
+        "room_id": 486
+    },
+    {
+        "name": "sirtqi-116",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 38,
+        "room_id": 818
+    },
+    {
+        "name": "sirtqi-117",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Seminar",
+        "capacity": 60,
+        "room_id": 483
+    },
+    {
+        "name": "sirtqi-118",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 76,
+        "room_id": 484
+    },
+    {
+        "name": "sirtqi-120",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 48,
+        "room_id": 485
+    },
+    {
+        "name": "sirtqi-121",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 36,
+        "room_id": 487
+    },
+    {
+        "name": "sirtqi-122",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 488
+    },
+    {
+        "name": "sirtqi-123",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 32,
+        "room_id": 190
+    },
+    {
+        "name": "sirtqi-124",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 32,
+        "room_id": 476
+    },
+    {
+        "name": "sirtqi-125",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 25,
+        "room_id": 819
+    },
+    {
+        "name": "sirtqi-126",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 32,
+        "room_id": 611
+    },
+    {
+        "name": "sirtqi-2",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 621
+    },
+    {
+        "name": "sirtqi-201",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 609
+    },
+    {
+        "name": "sirtqi-204",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 820
+    },
+    {
+        "name": "sirtqi-205",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 821
+    },
+    {
+        "name": "sirtqi-206",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 24,
+        "room_id": 617
+    },
+    {
+        "name": "sirtqi-207",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 60,
+        "room_id": 822
+    },
+    {
+        "name": "sirtqi-208",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 28,
+        "room_id": 684
+    },
+    {
+        "name": "sirtqi-210",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 56,
+        "room_id": 686
+    },
+    {
+        "name": "sirtqi-211",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 823
+    },
+    {
+        "name": "sirtqi-212",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 80,
+        "room_id": 572
+    },
+    {
+        "name": "sirtqi-213",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 40,
+        "room_id": 610
+    },
+    {
+        "name": "sirtqi-214",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 90,
+        "room_id": 571
+    },
+    {
+        "name": "sirtqi-216",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 56,
+        "room_id": 570
+    },
+    {
+        "name": "sirtqi-217",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 84,
+        "room_id": 816
+    },
+    {
+        "name": "sirtqi-218",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 60,
+        "room_id": 817
+    },
+    {
+        "name": "sirtqi-219",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 96,
+        "room_id": 616
+    },
+    {
+        "name": "sirtqi-221",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 44,
+        "room_id": 191
+    },
+    {
+        "name": "sirtqi-222",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Amaliyot",
+        "capacity": 24,
+        "room_id": 192
+    },
+    {
+        "name": "sirtqi-225",
+        "building": "Sirtqi ta'lim bo'limi binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 56,
+        "room_id": 193
+    },
+    {
+        "name": "Trans-1",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 150,
+        "room_id": 875
+    },
+    {
+        "name": "Trans-202A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 880
+    },
+    {
+        "name": "Trans-205A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 881
+    },
+    {
+        "name": "Trans-206A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 882
+    },
+    {
+        "name": "Trans-210A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 883
+    },
+    {
+        "name": "Trans-301A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 427
+    },
+    {
+        "name": "Trans-302A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 884
+    },
+    {
+        "name": "Trans-306A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 885
+    },
+    {
+        "name": "Trans-308A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 874
+    },
+    {
+        "name": "Trans-401A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 80,
+        "room_id": 872
+    },
+    {
+        "name": "Trans-402A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 886
+    },
+    {
+        "name": "Trans-405A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 887
+    },
+    {
+        "name": "Trans-401A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 80,
+        "room_id": 872
+    },
+    {
+        "name": "Trans-402A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 886
+    },
+    {
+        "name": "Trans-405A",
+        "building": "Sirtqi ta'lim bo'limi eski Samarqand Transport va kommunikatsiyalar kolleji",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 887
+    },
+    {
+        "name": "Spf va s 4/24",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 10,
+        "room_id": 896
+    },
+    {
+        "name": "Spf va s 1/1",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 746
+    },
+    {
+        "name": "Spf va s 1/10",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 75,
+        "room_id": 678
+    },
+    {
+        "name": "Spf va s 1/11",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 100,
+        "room_id": 825
+    },
+    {
+        "name": "Spf va s 1/12",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 826
+    },
+    {
+        "name": "Spf va s 1/13",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 827
+    },
+    {
+        "name": "Spf va s 1/14",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 677
+    },
+    {
+        "name": "Spf va s 1/15",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 681
+    },
+    {
+        "name": "Spf va s 1/16",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 680
+    },
+    {
+        "name": "Spf va s 1/17",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 676
+    },
+    {
+        "name": "Spf va s 1/1A",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 26,
+        "room_id": 845
+    },
+    {
+        "name": "Spf va s 1/2",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 568
+    },
+    {
+        "name": "Spf va s 1/3",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 569
+    },
+    {
+        "name": "Spf va s 1/4",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 692
+    },
+    {
+        "name": "Spf va s 1/5",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 693
+    },
+    {
+        "name": "Spf va s 1/6",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 824
+    },
+    {
+        "name": "Spf va s 1/7",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 100,
+        "room_id": 694
+    },
+    {
+        "name": "Spf va s 1/8",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 100,
+        "room_id": 695
+    },
+    {
+        "name": "Spf va s 1/9",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 40,
+        "room_id": 674
+    },
+    {
+        "name": "Spf va s 2/18",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 50,
+        "room_id": 675
+    },
+    {
+        "name": "Spf va s 2/19",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 828
+    },
+    {
+        "name": "Spf va s 2/20",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 50,
+        "room_id": 679
+    },
+    {
+        "name": "Spf va s 2/21",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 75,
+        "room_id": 576
+    },
+    {
+        "name": "Spf va s 2/22",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Seminar",
+        "capacity": 30,
+        "room_id": 574
+    },
+    {
+        "name": "Spf va s 2/23",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 75,
+        "room_id": 592
+    },
+    {
+        "name": "Spf va s 2/24 kom xona",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 829
+    },
+    {
+        "name": "Spf va s 2/25",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 50,
+        "room_id": 605
+    },
+    {
+        "name": "Spf va s faya-1",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 846
+    },
+    {
+        "name": "Spf va s faya-2",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 847
+    },
+    {
+        "name": "Spf va s faya-3",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 848
+    },
+    {
+        "name": "Spf va s zal 4/1",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 575
+    },
+    {
+        "name": "Spf va s zal 4/10",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 838
+    },
+    {
+        "name": "Spf va s zal 4/11",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 839
+    },
+    {
+        "name": "Spf va s zal 4/12",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 840
+    },
+    {
+        "name": "Spf va s zal 4/13",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 841
+    },
+    {
+        "name": "Spf va s zal 4/14",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 842
+    },
+    {
+        "name": "Spf va s zal 4/15",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 843
+    },
+    {
+        "name": "Spf va s zal 4/16",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 844
+    },
+    {
+        "name": "Spf va s zal 4/2",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 830
+    },
+    {
+        "name": "Spf va s zal 4/3",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 831
+    },
+    {
+        "name": "Spf va s zal 4/4",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 832
+    },
+    {
+        "name": "Spf va s zal 4/5",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 833
+    },
+    {
+        "name": "Spf va s zal 4/6",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 834
+    },
+    {
+        "name": "Spf va s zal 4/7",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 835
+    },
+    {
+        "name": "Spf va s zal 4/8",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 836
+    },
+    {
+        "name": "Spf va s zal 4/9",
+        "building": "Sport faoliyati va san'at fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 200,
+        "room_id": 837
+    },
+    {
+        "name": "Sport faoliyati inyaz 1 xona",
+        "building": "Sport faoliyati va san'at fakulteti Sport zal inyaz binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 353
+    },
+    {
+        "name": "Sport faoliyati inyaz 2 xona",
+        "building": "Sport faoliyati va san'at fakulteti Sport zal inyaz binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 350
+    },
+    {
+        "name": "Sport faoliyati inyaz zal 1",
+        "building": "Sport faoliyati va san'at fakulteti Sport zal inyaz binosi",
+        "room_type": "Amaliyot",
+        "capacity": 100,
+        "room_id": 351
+    },
+    {
+        "name": "Sport faoliyati inyaz zal 2",
+        "building": "Sport faoliyati va san'at fakulteti Sport zal inyaz binosi",
+        "room_type": "Amaliyot",
+        "capacity": 100,
+        "room_id": 354
+    },
+    {
+        "name": "Tar -102",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 10
+    },
+    {
+        "name": "Tar -104",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 11
+    },
+    {
+        "name": "Tar -106",
+        "building": "Tarix fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 12
+    },
+    {
+        "name": "Tar -108",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 13
+    },
+    {
+        "name": "Tar -109",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 14
+    },
+    {
+        "name": "Tar -112",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 15
+    },
+    {
+        "name": "Tar -113",
+        "building": "Tarix fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 16
+    },
+    {
+        "name": "Tar -114",
+        "building": "Tarix fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 60,
+        "room_id": 17
+    },
+    {
+        "name": "Tar -210",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 18
+    },
+    {
+        "name": "Tar -212",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 20
+    },
+    {
+        "name": "Tar -214",
+        "building": "Tarix fakulteti",
+        "room_type": "Ma'ruza",
+        "capacity": 120,
+        "room_id": 19
+    },
+    {
+        "name": "Tar -216",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 22
+    },
+    {
+        "name": "Tar -217",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 23
+    },
+    {
+        "name": "Tar -218",
+        "building": "Tarix fakulteti",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 24
+    },
+    {
+        "name": "Tar-211",
+        "building": "Tarix fakulteti",
+        "room_type": "Boshqa",
+        "capacity": 30,
+        "room_id": 341
+    },
+    {
+        "name": "Ulug'bek mad-1",
+        "building": "Ulug'bek madrasasi",
+        "room_type": "Amaliyot",
+        "capacity": 100,
+        "room_id": 859
+    },
+    {
+        "name": "9 qavatli bino -804",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 682
+    },
+    {
+        "name": "9 qavatli bino -805",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 50,
+        "room_id": 380
+    },
+    {
+        "name": "9 qavatli bino -806",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 375
+    },
+    {
+        "name": "9 qavatli bino -812",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 797
+    },
+    {
+        "name": "9 qavatli bino -910",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Seminar",
+        "capacity": 15,
+        "room_id": 564
+    },
+    {
+        "name": "9 qavatli bino- 709",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 379
+    },
+    {
+        "name": "9 qavatli bino- 809",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 50,
+        "room_id": 378
+    },
+    {
+        "name": "9 qavatli bino- 911",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 15,
+        "room_id": 377
+    },
+    {
+        "name": "9 qavatli bino-710",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 15,
+        "room_id": 683
+    },
+    {
+        "name": "9 qavatli bino-712",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 15,
+        "room_id": 923
+    },
+    {
+        "name": "9 qavatli bino-808",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 15,
+        "room_id": 924
+    },
+    {
+        "name": "XTD_504",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 14,
+        "room_id": 277
+    },
+    {
+        "name": "XTD_509",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 14,
+        "room_id": 278
+    },
+    {
+        "name": "XTD_511",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Ma'ruza",
+        "capacity": 36,
+        "room_id": 619
+    },
+    {
+        "name": "XTD_704",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 40,
+        "room_id": 687
+    },
+    {
+        "name": "XTD_705",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 795
+    },
+    {
+        "name": "XTD_908",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Ma'ruza",
+        "capacity": 20,
+        "room_id": 559
+    },
+    {
+        "name": "XTD_913",
+        "building": "Xalqaro ta'lim dasturlar markazi",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 561
+    },
+    {
+        "name": "P 001 komp xona",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 615
+    },
+    {
+        "name": "P 002",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 60,
+        "room_id": 618
+    },
+    {
+        "name": "P 003",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 76,
+        "room_id": 591
+    },
+    {
+        "name": "P 004",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 76,
+        "room_id": 589
+    },
+    {
+        "name": "P 008 komp xona",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 39,
+        "room_id": 626
+    },
+    {
+        "name": "P 009 komp xona",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 50,
+        "room_id": 627
+    },
+    {
+        "name": "P 010 komp xona",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 50,
+        "room_id": 628
+    },
+    {
+        "name": "P 101",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 52,
+        "room_id": 634
+    },
+    {
+        "name": "P 102",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 70,
+        "room_id": 632
+    },
+    {
+        "name": "P 103",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 52,
+        "room_id": 633
+    },
+    {
+        "name": "P 105",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 108,
+        "room_id": 635
+    },
+    {
+        "name": "P 106 komp xona",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 20,
+        "room_id": 636
+    },
+    {
+        "name": "P 107",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 108,
+        "room_id": 637
+    },
+    {
+        "name": "P 110",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 80,
+        "room_id": 640
+    },
+    {
+        "name": "P 111",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 90,
+        "room_id": 641
+    },
+    {
+        "name": "P 201",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Amaliyot",
+        "capacity": 30,
+        "room_id": 917
+    },
+    {
+        "name": "P 202",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 108,
+        "room_id": 643
+    },
+    {
+        "name": "P 203",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 80,
+        "room_id": 644
+    },
+    {
+        "name": "P 204",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 154,
+        "room_id": 645
+    },
+    {
+        "name": "P 205",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 154,
+        "room_id": 646
+    },
+    {
+        "name": "P 206",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 154,
+        "room_id": 647
+    },
+    {
+        "name": "P 207",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 154,
+        "room_id": 648
+    },
+    {
+        "name": "P 209",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 108,
+        "room_id": 650
+    },
+    {
+        "name": "P 210",
+        "building": "Yangi o'quv binosi",
+        "room_type": "Ma'ruza",
+        "capacity": 30,
+        "room_id": 651
+    }
+]
