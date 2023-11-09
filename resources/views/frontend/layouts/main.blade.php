@@ -478,12 +478,9 @@
                         </div>
                     </div>
                     <div class="col-12 footer-line"></div>
-                    <div class="col-lg-7 col-md-7 col-sm-12 text-copyright">© Samarkand State University Urgut
-                        Branch,<br> When
-                        using the
-                        materials of the site in full or in part, it is mandatory to indicate this source.<br>Attention!
-                        If
-                        you find an error in the text, select it and press Ctrl + Enter to notify the administration
+                    <div class="col-lg-7 col-md-7 col-sm-12 text-copyright">
+                        {{ __('data.footer_text') }} <br>
+                        {{ __('data.footer_text2') }}
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12">
                         <div class="counters">

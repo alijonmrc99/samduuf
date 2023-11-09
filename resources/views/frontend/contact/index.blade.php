@@ -2,8 +2,8 @@
 @section('content')
     <main class=container-fluid>
         <h2 class="text-center py-5">{{ __('data.contact') }}</h2>
-        <div class="row contact">
-            <div class="col-12 col-lg-6">
+        <div class="row justify-content-center mb-5 contact">
+            <div class="col-12 col-lg-8">
                 <div class="row">
                     <div class="col-12  box col-lg-6 text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 position-relative pb-5">
+            {{-- <div class="col-12 col-lg-6 position-relative pb-5">
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </form>
-            </div>
+            </div> --}}
         </div>
     </main>
 @endsection

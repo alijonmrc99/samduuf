@@ -84,5 +84,7 @@ return [
     'fotogalery' => "Fotogalereya",
     'view-all' => "Barchasini ko'rish",
     'submit' => 'Yuborish',
+    'footer_text' => '© Samarqand davlat universiteti Urgut Filiali',
+    'footer_text2' => 'Sayt materiallaridan toʻliq yoki qisman foydalanilganda ushbu manbani koʻrsatish shart.'
 
 ];

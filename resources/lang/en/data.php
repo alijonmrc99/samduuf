@@ -86,4 +86,6 @@ return [
     'fotogalery' => "Photogallery",
     'view-all' => "See all",
     'submit' => 'Submit',
+    'footer_text' => '© Samarkand State University Urgut Branch', 
+    'footer_text2' => 'Branch, When using the materials of the site in full or in part, it is mandatory to indicate this source.'
 ];
