@@ -1,6 +1,12 @@
 <IfModule mod_rewrite.c>
-
    RewriteEngine on
    RewriteCond %{REQUEST_URI} !^public
    RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv SECRET_KEY django-insecure-(xx_@(9a6$(24zaifd1k&0lbu^t=l9jc=jqe_03o(#w1*emx0!
+SetEnv DEBUG false
+SetEnv API_TOKEN a0VCpKOk50AMFvMtmCw-zECI9fw7eti5
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
