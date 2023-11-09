@@ -864,7 +864,7 @@ footer .social-icon {
 }
 
 .footer-links>li>a {
-    display: block;
+    display: inline-block;
     margin: 8px 0;
     height: 36px;
     font-size: 15px;
