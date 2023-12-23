@@ -2,8 +2,8 @@
 @section('content')
     <main class=container-fluid>
         <h2 class="text-center py-5">{{ __('data.contact') }}</h2>
-        <div class="row contact">
-            <div class="col-12 col-lg-6">
+        <div class="row justify-content-center mb-5 contact">
+            <div class="col-12 col-lg-8">
                 <div class="row">
                     <div class="col-12  box col-lg-6 text-center">
                         <div class="d-flex align-items-center justify-content-center">
@@ -26,7 +26,7 @@
                         </div>
                         <p>
                             <b>{{ __('data.telephones') }}</b> <br>
-                            +998 91 299 89 99 <br>
+                            +998 77 000 71 30 <br>
                             +998 97 703 45 41
 
                         </p>
@@ -40,7 +40,7 @@
                         </div>
                         <p>
                             <b>{{ __('data.our-mail') }}</b> <br>
-                            <a href="mailto:samduuf@edu.uz">samduuf@edu.uz</a>
+                            <a href="mailto:devonxona@samduuf.uz">devonxona@samduuf.uz</a>
                         </p>
                     </div>
                     <div class="col-12  box col-lg-6 text-center">
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 position-relative pb-5">
+            {{-- <div class="col-12 col-lg-6 position-relative pb-5">
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </form>
-            </div>
+            </div> --}}
         </div>
     </main>
 @endsection

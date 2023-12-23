@@ -510,21 +510,22 @@
 
 
         <!-- Partner Orgs begin -->
-        <section class="bg-gray py-5">
-            <h2 class="text-center mb-4">{{ __('data.useful-sites') }}</h2>
-            <div class="container">
-                <div class="row useful">
-                    @foreach ($partnerOrgs as $partnerOrg)
-                        <div class="col-3 px-2">
-                            <a href="{{ $partnerOrg->url }}">
-                                <img width="100%" src="{{ $partnerOrg->image_path }}" alt="uzedu">
-                                <span class="useful-text p-3">{{ $partnerOrg->{'desc_' . $locale} }}</span>
-                            </a>
-                        </div>
-                    @endforeach
+            {{-- <section class="bg-gray py-5">
+                <h2 class="text-center mb-4">{{ __('data.useful-sites') }}</h2>
+                <div class="container">
+                    <div class="row useful">
+                        @foreach ($partnerOrgs as $partnerOrg)
+                            <div class="col-3 px-2">
+                                <a href="{{ $partnerOrg->url }}">
+                                    <img width="100%" src="{{ $partnerOrg->image_path }}" alt="uzedu">
+                                    <span class="useful-text p-3">{{ $partnerOrg->{'desc_' . $locale} }}</span>
+                                </a>
+                            </div>
+                        @endforeach
+                    </div>
                 </div>
-            </div>
-        </section><!--  Partner Orgs end -->
+            </section> --}}
+        <!--  Partner Orgs end -->
     </main>
 
 @endsection
