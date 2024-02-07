@@ -26,7 +26,7 @@
                         </div>
                         <p>
                             <b>{{ __('data.telephones') }}</b> <br>
-                            +998 91 299 89 99 <br>
+                            +998 77 000 71 30 <br>
                             +998 97 703 45 41
 
                         </p>
@@ -40,7 +40,7 @@
                         </div>
                         <p>
                             <b>{{ __('data.our-mail') }}</b> <br>
-                            <a href="mailto:samduuf@edu.uz">samduuf@edu.uz</a>
+                            <a href="mailto: samduuf@edu.uz"> samduuf@edu.uz</a>
                         </p>
                     </div>
                     <div class="col-12  box col-lg-6 text-center">
