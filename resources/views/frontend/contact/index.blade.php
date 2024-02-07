@@ -40,7 +40,7 @@
                         </div>
                         <p>
                             <b>{{ __('data.our-mail') }}</b> <br>
-                            <a href="mailto:devonxona@samduuf.uz">devonxona@samduuf.uz</a>
+                            <a href="mailto: samduuf@edu.uz"> samduuf@edu.uz</a>
                         </p>
                     </div>
                     <div class="col-12  box col-lg-6 text-center">
