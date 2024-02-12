@@ -1,6 +1,7 @@
 @extends('frontend.layouts.main')
 
 @section('content')
+    
 <main>
         {{-- <script src="{{ asset('frontend/js/tailwand.js') }}"></script> --}}
         <!-- Slider start -->

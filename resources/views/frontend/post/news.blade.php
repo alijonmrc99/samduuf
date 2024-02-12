@@ -2,13 +2,13 @@
 
 @section('content')
     <div class="top-head">
-        <h2 class="title m-0"><span>{{__('data.news')}}</span></h2>
+        <h2 class="title text-center m-0"><span>{{__('data.news')}}</span></h2>
     </div>
 
     <main>
         <section class="items news" id="newsgsap">
             <div class="container">
-                <nav>
+                <nav class="mt-3">
                     <ol class="breadcrumb p-0">
                         <li class="breadcrumb-item"><a href="/">{{__('data.home')}}</a></li>
                         <li class="breadcrumb-item active">{{__('data.news')}}</li>
@@ -22,11 +22,11 @@
                                                             src="/{{$post->image}}"
                                                             alt="Card image cap"></div>
                                 <div class="card-body border">
-                                    <h5 class="card-title">{{$post->{'title_' . $locale} }}</h5>
+                                    <a href="/post/{{$post->slug}}"><h5 class="card-title">{{$post->{'title_' . $locale} }}</h5></a>
                                     <p class="card-text">{{$post->{'short_content_' .  $locale} }}</p>
-                                    <div class="card-footer border-0 py-0 px-4 justify-content-between">
+                                    <div class="d-flex border-0 py-0 justify-content-between">
                                         <span class="card-data">{{\App\Services\PostService::dateFormat($post->date,$locale)}} / {{__('data.seen')}} {{$postViews[$post->id]}}</span>
-                                        <a href="/post/{{$post->slug}}" class="">{{__('data.read-more')}}...</a>
+                                        <a href="/post/{{$post->slug}}" class="link">{{__('data.read-more')}}...</a>
                                     </div>
                                 </div>
                             </div>

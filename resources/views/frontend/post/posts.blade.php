@@ -8,6 +8,7 @@
     <main>
         <section class="items news" id="newsgsap">
             <div class="container">
+
                 <nav>
                     <ol class="breadcrumb p-0">
                         <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
@@ -35,7 +36,7 @@
                 </div>
 
                     {{$posts->links('pagination::bootstrap-4')}}
-
+                
 
             </div>
         </section><!-- News end -->
