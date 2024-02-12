@@ -3,6 +3,7 @@ return [
     'home' => 'Bosh sahifa',
     'last-news' => 'YANGILIKLAR',
     'news' => 'Yangiliklar',
+    'latest-news'=> 'So\'nggi yangiliklar',
     'annuncements' => 'E\'LONLAR',
     'statistics' => 'STATISTIKA',
     'video-clips' => 'VIDEO VA RASMLAR',

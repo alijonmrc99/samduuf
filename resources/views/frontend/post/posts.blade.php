@@ -19,9 +19,8 @@
                     @foreach($posts as $post)
                         <div class="col-12 col-md-6 col-lg-4 mb-2 mb-md-0 mb-2 mb-md-0">
                             <div class="card mb-3">
-                                <div class="img-after"><img class="card-img-top"
-                                                            src="/{{$post->image}}"
-                                                            alt="Card image cap"></div>
+                                <div class="img-after">
+                                    <img class="card-img-top"src="/{{$post->image}}" alt="Card image cap"></div>
                                 <div class="card-body border">
                                     <h5 class="card-title">{{$post->{'title_' . $locale} }}</h5>
                                     <p class="card-text">{{$post->{'short_content_' .  $locale} }}</p>
@@ -36,7 +35,7 @@
                 </div>
 
                     {{$posts->links('pagination::bootstrap-4')}}
-                
+
 
             </div>
         </section><!-- News end -->

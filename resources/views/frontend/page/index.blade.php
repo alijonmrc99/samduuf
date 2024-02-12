@@ -21,7 +21,7 @@
                         </p>
                     </section>
                     <section class="d-lg-block d-none mt-5 col-lg-3">
-                        <h4 class="text-center mb-4">{{ __('data.last-news') }}</h4>
+                        <h4 class="text-center mb-4">{{ __('data.latest-news') }}</h4>
                         {{-- @dump($globalNews) --}}
                         @if ($globalNews)
                         @foreach ($globalNews as $globalNew)

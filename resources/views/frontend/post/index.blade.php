@@ -8,7 +8,7 @@
     <main class="container one-news mt-4">
         <div class="row">
             <section class="col-lg-12 mt-3">
-                <div class="row">
+                <div class="row faster-news">
                     <nav>
                         <ol class="breadcrumb p-0">
                             <li class="breadcrumb-item"><a href="/">{{__('data.home')}}</a></li>
@@ -24,7 +24,7 @@
                         </section>
 
                         <section class="d-lg-block d-none mt-5 col-lg-3">
-                            <h4 class="text-center mb-4">{{ __('data.last-news') }}</h4>
+                            <h4 class="text-center mb-4">{{ __('data.latest-news') }}</h4>
                             @if ($globalNews)
                             @foreach ($globalNews as $globalNew)
                             <div class="border-bottom" >
