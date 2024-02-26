@@ -3,7 +3,7 @@ return [
     'home' => 'Главная',
     'last-news' => 'ПОСЛЕДНИЕ НОВОСТИ',
     'news' => 'НОВОСТИ',
-    'latest-news'=> 'Последние новости'
+    'latest-news'=> 'Последние новости',
     'annuncements' => 'ОБЪЯВЛЕНИЯ',
     'interactive-services' => 'ИНТЕРАКТИВНАЯ УСЛУГА',
     'statistics' => 'СТАТИСТИКА',
