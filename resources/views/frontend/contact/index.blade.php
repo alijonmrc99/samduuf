@@ -53,7 +53,7 @@
                         </div>
                         <p>
                             <b>{{ __('data.working-time') }}</b> <br>
-                            {{ __('data.week') }} <br> 08:30 - 17:00
+                            {{ __('data.week') }} <br> 08:30 - 17:30
                         </p>
                     </div>
                 </div>

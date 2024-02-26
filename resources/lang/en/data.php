@@ -38,6 +38,8 @@ return [
         'elibrary-desc' => 'A site for a collection of textbooks and study guides for university students',
         'schedule' => 'Schedule',
         'schedule-desc' => 'An online lesson schedule site integrated with Hemis for university student teachers',
+        'interactive' => 'Interaktiv xizmatlar',
+        'interactive_desc' => 'Interaktiv xizmatlar bilan siz bizning xizmatlarimizdan masofadan turib foydalanishingiz mumkin.',
     ],
     'useful-sites-names' => [
         'mygov' => 'SINGLE INTERACTIVE PUBLIC SERVICES PORTAL',

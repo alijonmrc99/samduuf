@@ -36,6 +36,8 @@ return [
         'elibrary-desc' => 'SamDU Urgut filiali talabari uchun darslik va o’quv qo’llanmalar jamlanmasi elektron kutubxonasi',
         'schedule' => 'Dars jadvali',
         'schedule-desc' => 'SamDU Urgut filiali talabari o’qituvchilari uchun hemis bilan integratsiya qilingan online dars jadvali platformasi',
+        'interactive' => 'Interaktiv xizmatlar',
+        'interactive_desc' => 'Interaktiv xizmatlar bilan siz bizning xizmatlarimizdan masofadan turib foydalanishingiz mumkin.',
     ],
     'useful-sites-names' => [
         'mygov' => 'YAGONA INTERAKTIV DAVLAT XIZMATLARI PORTALI',
@@ -86,6 +88,6 @@ return [
     'view-all' => "Barchasini ko'rish",
     'submit' => 'Yuborish',
     'footer_text' => '© Samarqand davlat universiteti Urgut Filiali',
-    'footer_text2' => 'Sayt materiallaridan toʻliq yoki qisman foydalanilganda ushbu manbani koʻrsatish shart.'
-
+    'footer_text2' => 'Sayt materiallaridan toʻliq yoki qisman foydalanilganda ushbu manbani koʻrsatish shart.',
+   
 ];

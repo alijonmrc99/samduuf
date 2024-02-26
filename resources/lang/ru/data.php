@@ -36,6 +36,8 @@ return [
         'elibrary-desc' => 'Сайт сборника учебников и учебных пособий для студентов вузов',
         'schedule' => 'Расписание',
         'schedule-desc' => 'Сайт расписания онлайн-уроков, интегрированный с Hemis, для студентов-преподавателей университетов.',
+        'interactive' => 'Interaktiv xizmatlar',
+        'interactive_desc' => 'Interaktiv xizmatlar bilan siz bizning xizmatlarimizdan masofadan turib foydalanishingiz mumkin.',
     ],
     'useful-sites-names' => [
         'mygov' => 'ЕДИНЫЙ ПОРТАЛ ИНТЕРАКТИВНЫХ ГОСУДАРСТВЕННЫХ УСЛУГ',

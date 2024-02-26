@@ -393,10 +393,12 @@
                         <div class="footer-card">
                             <h2 class="footer-title">{{ __('data.map') }}</h2>
                             <div style="position:relative;overflow:hidden; margin-top:30px">
-                                <iframe
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d905.767996305144!2d67.1771817!3d39.4212652!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4cc5b64e13e317%3A0x8d93018fdf14d8c3!2sSharof%20Rashidov%20nomidagi%20Samarqand%20davlat%20universiteti%20Urgut%20filiali!5e1!3m2!1sen!2s!4v1708942361891!5m2!1sen!2s" 
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                {{-- <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2223.253237374265!2d67.17895302981071!3d39.42076785403022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4cc57a7ebf9d1d%3A0x2faeb12ed195b8b8!2sKamongaron%20Kasb%20Hunar%20Kolleji!5e1!3m2!1sen!2s!4v1670501900630!5m2!1sen!2s"
                                     width="400" height="300" style="border:0;" allowfullscreen=""
-                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
                             </div>
                         </div>
                     </div>
